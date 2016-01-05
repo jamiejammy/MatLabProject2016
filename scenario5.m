@@ -15,7 +15,7 @@ if L == 1
      scenario6
    else
       disp('The zombie breaks the toilet’s door down and eats you.')
-      scenario6
+      start
    end
 elseif L == 2
    if Strength > 6

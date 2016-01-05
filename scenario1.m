@@ -20,5 +20,6 @@ elseif L == 2
  elseif L == 3
    disp('The zombie runs up to you and starts ripping your intestines out, you continue to do the Harlem Shake for a few minutes.')
    disp('You also then end up chomping on your lecturers face. You don’t pass to the next stage.')
+   start
 end
 
