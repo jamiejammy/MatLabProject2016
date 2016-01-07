@@ -2,7 +2,7 @@
 %%%%%%%%%%%%%%%%%%STARTING VIDEO%%%%%%%%%%%%%%%%%%%%
 [A,map]=imread('introgif.gif','frames','all'); 
 mov=immovie(A,map); 
-p = implay(mov, 4.5);
+p = implay(mov, 5);
 set(findall(0,'tag','spcui_scope_framework'),'position',[500 100 700 951]);
 play(p.DataSource.Controls);
 pa = 6;
