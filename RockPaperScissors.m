@@ -16,6 +16,7 @@ function [NumWin] = RockPaperScissors(n)
     A = 'Tie';
     B = 'Loss';
     C = 'Win';
+    D = 'Invalid input';
     
     for i = 1:n
         Player = input('Choose 1 for rock, 2 for paper, or 3 for scissors:     ');
@@ -51,28 +52,30 @@ function [NumWin] = RockPaperScissors(n)
                 NumTie = NumTie + 1;
             end
         else
-            disp('Invalid input, please restart')
-            disp(' ')
-            RockPaperScissors
+            Result = D;
+            NumLose = NumLose + 1;
         end
 
         if AI == 1
-            AI = 'Rock';
+            AI = 'Rock.';
         elseif AI == 2
-            AI = 'Paper';
-        else AI = 'Scissors';
+            AI = 'Paper.';
+        else AI = 'Scissors.';
         end
 
         if Player == 1
-            Player = 'Rock';
+            Player = 'Rock.';
         elseif Player == 2
-            Player = 'Paper';
-        else Player = 'Scissors';
+            Player = 'Paper.';
+        elseif Player == 3
+            Player = 'Scissors.';
+        else
+            Player = 'nothing at all!';         
         end
 
         disp(' ')
-        disp(['You chose ',num2str(Player),'.'])
-        disp(['Computer chose ',num2str(AI),'.'])
+        disp(['You chose ',num2str(Player)])
+        disp(['Computer chose ',num2str(AI)])
         disp(' ')
 
         if strcmp(Result,A) == 1
@@ -81,11 +84,22 @@ function [NumWin] = RockPaperScissors(n)
         elseif strcmp(Result,B) == 1
             disp('You lose!')
             disp(' ')
-        else disp('You win!')
+        elseif strcmp(Result,C) == 1
+            disp('You win!')
             disp(' ')
+        else
+            disp('You lose! Choose a valid input next time.')
         end
     end
     
     % Base code from: http://uk.mathworks.com/matlabcentral/answers/68773-rock-paper-scissors-gui
-    % Note: the base code does not fully work
-    % Elements taken from: https://www.youtube.com/watch?v=cn7CH1mikAQ
+    % Note: the base code does not fully work, and has been heavily
+    % modified to suit our needs. These modifications include: fixing the
+    % code; considerations for unexpected input; ability to choose the
+    % number of rounds played; number of wins, losses and ties reported back after game;
+    % changing some of the names of variables.
+    %
+    % Elements have also been taken from
+    % https://www.youtube.com/watch?v=cn7CH1mikAQ 
+    % which include: ability to choose the number of rounds played,
+    % and number of wins, losses and ties reported back after game.
