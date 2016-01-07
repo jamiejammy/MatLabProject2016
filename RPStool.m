@@ -78,15 +78,15 @@ function Rock_Callback(hObject, eventdata, handles)
 % hObject    handle to Rock (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-iComputerPlay=randi([1 3]);
+Computer = randi([1 3]);
 set(handles.hplays,'String','You play rock');
-if iComputerPlay == 1
+if Computer == 1
     set(handles.cplays,'String','Computer plays rock');
     set(handles.winner,'String','It’s a tie!');
     a = str2double(get(handles.tscore,'String'));
     a = a+1;
     set(handles.tscore,'String',a);
-elseif iComputerPlay == 2
+elseif Computer == 2
     set(handles.cplays,'String','Computer plays paper');
     set(handles.winner,'String','Computer wins!');
     b = str2double(get(handles.cscore,'String'));
@@ -105,15 +105,15 @@ function Paper_Callback(hObject, eventdata, handles)
 % hObject    handle to Paper (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-iComputerPlay=randi([1 3]);
+Computer = randi([1 3]);
 set(handles.hplays,'String','You play paper');
-if iComputerPlay == 1
+if Computer == 1
     set(handles.cplays,'String','Computer plays rock');
     set(handles.winner,'String','You win!');
     c = str2double(get(handles.hscore,'String'));
     c = c+1;
     set(handles.hscore,'String',c);
-elseif iComputerPlay == 2
+elseif Computer == 2
     set(handles.cplays,'String','Computer plays paper');
     set(handles.winner,'String','It’s a tie!');
     a = str2double(get(handles.tscore,'String'));
@@ -132,15 +132,15 @@ function Scissors_Callback(hObject, eventdata, handles)
 % hObject    handle to Scissors (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-iComputerPlay=randi([1 3]);
+Computer = randi([1 3]);
 set(handles.hplays,'String','You play paper');
-if iComputerPlay == 1
+if Computer == 1
     set(handles.cplays,'String','Computer plays rock');
     set(handles.winner,'String','Computer wins!');
     b = str2double(get(handles.cscore,'String'));
     b = b+1;
     set(handles.cscore,'String',b);
-elseif iComputerPlay == 2
+elseif Computer == 2
     set(handles.cplays,'String','Computer plays paper');
     set(handles.winner,'String','Ypu win!');
     c = str2double(get(handles.hscore,'String'));
