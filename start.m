@@ -1,5 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%STARTING VIDEO%%%%%%%%%%%%%%%%%%%%
+MOVIE = input('Would you like to watch the introductory video? 1 for Yes, 0 for No     ');
+if MOVIE == 1
 [A,map]=imread('introgif.gif','frames','all'); 
 mov=immovie(A,map); 
 p = implay(mov, 5);
@@ -8,6 +10,15 @@ play(p.DataSource.Controls);
 pa = 6;
 pause(pa)
 close(p);
+elseif MOVIE == 0
+else 
+    pause(0.5)
+    disp(' ')
+    disp('Please enter a 1 or a 0')
+    disp(' ')
+    pause(0.5)
+    start
+end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
