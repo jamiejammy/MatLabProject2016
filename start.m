@@ -1,3 +1,4 @@
+disp(' ')
 I = input('Allocate 20 stat points in the form of the vector [Strength Intellect Agility]   ')
 
 Strength = I(1,1);
@@ -14,7 +15,6 @@ elseif sum(I) < 20,
 elseif sum(I) == 20
     J = input('Are you sure these are the stats you want? 0 for no, 1 for yes   ');
     if J == 0 
-        disp('Start again')
         start
     elseif J == 1
         scenario1

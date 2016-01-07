@@ -3,6 +3,7 @@ disp('You wake up half way through your econometrics lecture, some zombie runs i
 disp('1. Get the hell outta there')
 disp('2. Roundhouse kick the zombie and leave with a dramatic exit')
 disp('3. Do the Harlem Shake')
+disp(' ')
 L = input('Choose by typing 1, 2 or 3     ')
 disp(' ')
 if L == 1

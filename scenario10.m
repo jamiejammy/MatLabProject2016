@@ -10,7 +10,7 @@ disp(' ')
 L = input('Choose by typing 1, 2 or 3     ')
 disp(' ')
 if L == 1
-    if Strength > 5
+    if Strength > 6
         disp('you made it through with brute force, and the Queen makes you an honorary guest for the duration of the apocalypse. ')
         disp(' ')
         disp('YOU SURVIVED THE ZOMBIE APOCALYPSE!.') 
@@ -21,23 +21,24 @@ if L == 1
     end
 elseif L == 2
    if Agility > 6
-     disp('Your are agilie enough to keep running away from the zombies and you end up living out the apocalypse in a cave in the Lake District.')
+     disp('You’re are agile enough to keep running away from the zombies and you end up living out the apocalypse in a cave in the Lake District.')
      disp(' ')
      disp('YOU SURVIVED THE ZOMBIE APOCALYPSE!.') 
      disp('They find a cure and the world eventually goes back to normal')
    else
-      disp('You are Not Agile enough! You escape a few zombie attacks, but are finally trapped in a pod on the London eye, and you are eaten alive. ')
+      disp('You are not agile enough! You manage to skillfully dodge a few zombie attacks,')
+      disp('but end up trapped in a pod on the London Eye, only to be eaten alive.  ')
       disp(' ')
       start
    end
  elseif L == 3
    if Intellect > 6
-     disp('Your smart enough to hide in a suit of armour, and manage to sneak to the kitchens daily to get food and survive. ')
+     disp('You’r smart enough to hide in a suit of armour, and manage to steathily sneak to the kitchens daily to get food and survive. ')
      disp(' ')
      disp('YOU SURVIVED THE ZOMBIE APOCALYPSE!.') 
      disp('They find a cure and the world eventually goes back to normal')
    else
-      disp('You are Not Smart enough! you try to hide under Charles’s bed and are found within 20 minutes. You are thrown to the zombies. ')
+      disp('You’re not smart enough! You try to hide under Charles’s bed but you’re found within 20 minutes. You are thrown to the zombies. ')
       disp(' ')
       start
    end

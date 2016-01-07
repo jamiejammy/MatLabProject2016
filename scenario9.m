@@ -8,7 +8,7 @@ disp(' ')
 L = input('Choose by typing 1, 2 or 3     ')
 disp(' ')
 if L == 1
-   disp('Your Dead! You just attacked 100s of zombies, what did you expect?')
+   disp('You’re dead! You’ve just taken on thousands of zombies, what did you expect?')
    disp(' ')
    start
 elseif L == 2

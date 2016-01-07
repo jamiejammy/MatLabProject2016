@@ -1,6 +1,6 @@
 disp('                                                         ')
-disp('You manage to arrive at vantage point with Chelsea and Westminster Hospital in view soon after, ')
-disp('an endless amount of zombies can be seen in and around the hospital. Do you?')
+disp('You manage to arrive at vantage point with Chelsea and Westminster Hospital in view soon after. ')
+disp('A seemingly endless amount of zombies can be seen in and around the hospital. Do you?')
 disp(' ')
 disp('1. Try to get around the hospital and continue onto Buckingham Palace.')
 disp('2. Go in guns ablazing ')
@@ -15,21 +15,21 @@ if L == 1
    disp(' ')
    scenario9
   else 
-     disp('your leg gets caught on a fence and your leg gets bitten eventually turning you into a zombie.')
+     disp('Your leg gets caught on a fence and gets bitten, eventually turning you into a zombie.')
      start
   end
 elseif L == 2
    if Strength < 10
-     disp('Sorry mate you to weak. You go in guns ablazing, attracting the attention of the surrounding zombies, you’re quickly swarmed.')
-     disp('the zombies become too much for you to handle and you are soon overwhelmed.')
+     disp('You go in guns ablazing, attracting the attention of the surrounding zombies, you’re quickly swarmed.')
+     disp('The zombies become too much for you to handle and you are soon overwhelmed. How pathetically weak.')
      start
    else
-      disp('Your Strength is unbelievable. You go in guns ablazing, attracting the attention of the surrounding zombies, you’re quickly swarmed.')
+      disp('Your strength is unbelievable. You go in guns ablazing, attracting the attention of the surrounding zombies, you’re quickly swarmed.')
       disp('you somehow managed to get out of the ordeal alive and carry onto the next stage. ')
       scenario9
    end
 elseif L == 3
-   disp('you check the supply bags and find some flares, you quickly throw the flares in different directions to attract the zombies and make a path. ')
+   disp('You check the supply bags and find some flares, you quickly throw the flares in different directions to attract the zombies and make a path. ')
    disp(' ')
    scenario9
 end
