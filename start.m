@@ -14,8 +14,10 @@ close(p);
 
 disp('Welcome to Road to Remedy®, the exciting new Zombie game by MBRRJ Studios')
 disp(' ')
+pause(1)
 disp('This is an 18+ game')
 disp('  ')
+pause(1)
 ST = input('Would you like to start your adventure? 1 for Yes, 0 for No      ');
 
 if ST == 0;
@@ -33,6 +35,7 @@ end
 
 disp('   ')
 disp('   ') 
+pause(1)
 AGE = input('Before we start the game, how old are you?          ');
 
 if AGE >= 18;
@@ -40,6 +43,7 @@ if AGE >= 18;
     
 else 
     disp('   ')
+    pause(1)
     disp('Sorry, you are not old enough to play the game')
     disp('Come back when you are 18 years old or above')
     disp('   ')
@@ -47,6 +51,7 @@ else
     
 end
 
+pause(1)
 disp(' ')
 I = input('Allocate 20 stat points in the form of the vector [Strength Intellect Agility]   ');
 
@@ -63,10 +68,14 @@ elseif sum(I) < 20,
     start
 elseif sum(I) == 20
     disp(' ')
+    pause(0.5)
     disp(['Strength = ',num2str(Strength)])
+    pause(0.5)
     disp(['Intellect = ',num2str(Intellect)])
+    pause(0.5)
     disp(['Agility = ',num2str(Agility)])
     disp(' ')
+    pause(0.5)
     J = input('Are you sure these are the stats you want? 1 for Yes, 0 for No   ');
     if J == 0 
         start
