@@ -22,7 +22,7 @@ function varargout = RPStool(varargin)
 
 % Edit the above text to modify the response to help RPStool
 
-% Last Modified by GUIDE v2.5 07-Jan-2016 21:45:04
+% Last Modified by GUIDE v2.5 07-Jan-2016 22:44:19
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -153,3 +153,22 @@ else
     a = a+1;
     set(handles.tscore,'String',a);
 end
+
+
+% --- Executes on button press in reset.
+function reset_Callback(hObject, eventdata, handles)
+% hObject    handle to reset (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+a = str2double(get(handles.tscore,'String'));
+a = 0;
+set(handles.tscore,'String',a);
+b = str2double(get(handles.cscore,'String'));
+b = 0;
+set(handles.cscore,'String',b);
+c = str2double(get(handles.hscore,'String'));
+c = 0;
+set(handles.hscore,'String',c);
+set(handles.hplays,'String','You play ');
+set(handles.cplays,'String','Computer plays ');
+set(handles.winner,'String',' ')
