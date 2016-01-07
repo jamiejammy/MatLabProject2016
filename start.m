@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%STARTING VIDEO%%%%%%%%%%%%%%%%%%%%
-MOVIE = input('Would you like to watch the introduction to the video? 1 for Yes, 0 for No     ');
+MOVIE = input('Would you like to watch the introductory video? 1 for Yes, 0 for No     ');
 if MOVIE == 1
 [A,map]=imread('introgif.gif','frames','all'); 
 mov=immovie(A,map); 
