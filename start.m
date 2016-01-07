@@ -80,14 +80,14 @@ elseif sum(I) < 20,
     start
 elseif sum(I) == 20
     disp(' ')
-    pause(0.5)
+    pause(0.2)
     disp(['Strength = ',num2str(Strength)])
-    pause(0.5)
+    pause(0.2)
     disp(['Intellect = ',num2str(Intellect)])
-    pause(0.5)
+    pause(0.2)
     disp(['Agility = ',num2str(Agility)])
     disp(' ')
-    pause(0.5)
+    pause(0.2)
     J = input('Are you sure these are the stats you want? 1 for Yes, 0 for No   ');
     if J == 0 
         start
