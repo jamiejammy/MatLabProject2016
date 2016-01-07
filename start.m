@@ -1,3 +1,4 @@
+
 disp(' ')
 I = input('Allocate 20 stat points in the form of the vector [Strength Intellect Agility]   ')
 
