@@ -1,3 +1,17 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%STARTING VIDEO%%%%%%%%%%%%%%%%%%%%
+[A,map]=imread('introgif.gif','frames','all'); 
+mov=immovie(A,map); 
+p = implay(mov, 4.5);
+set(findall(0,'tag','spcui_scope_framework'),'position',[500 100 700 951]);
+play(p.DataSource.Controls);
+pa = 6;
+pause(pa)
+close(p);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 disp('Welcome to Road to Remedy®, the exciting new Zombie game by MBRRJ Studios')
 disp(' ')
 disp('This is an 18+ game')
@@ -17,6 +31,8 @@ else
     start
 end
 
+disp('   ')
+disp('   ') 
 AGE = input('Before we start the game, how old are you?          ');
 
 if AGE >= 18;
@@ -32,7 +48,7 @@ else
 end
 
 disp(' ')
-I = input('Allocate 20 stat points in the form of the vector [Strength Intellect Agility]   ')
+I = input('Allocate 20 stat points in the form of the vector [Strength Intellect Agility]   ');
 
 Strength = I(1,1);
 Intellect = I(1,2);
@@ -46,7 +62,12 @@ elseif sum(I) < 20,
     disp('You can allocate more stat points')
     start
 elseif sum(I) == 20
-    J = input('Are you sure these are the stats you want? 0 for no, 1 for yes   ');
+    disp(' ')
+    disp(['Strength = ',num2str(Strength)])
+    disp(['Intellect = ',num2str(Intellect)])
+    disp(['Agility = ',num2str(Agility)])
+    disp(' ')
+    J = input('Are you sure these are the stats you want? 1 for Yes, 0 for No   ');
     if J == 0 
         start
     elseif J == 1
