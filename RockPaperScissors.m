@@ -74,21 +74,38 @@ function [NumWin] = RockPaperScissors(n)
         end
 
         disp(' ')
+        pause(0.5)
+        pause on
         disp(['You chose ',num2str(Player)])
+        pause(0.5)
+        pause on
+        disp(' ')
+        pause(0.5)
+        pause on
         disp(['Computer chose ',num2str(AI)])
+        pause(0.5)
+        pause on
         disp(' ')
 
         if strcmp(Result,A) == 1
             disp('It is a tie!')
+            pause(0.5)
+            pause on
             disp(' ')
         elseif strcmp(Result,B) == 1
             disp('You lose!')
+            pause(0.5)
+            pause on
             disp(' ')
         elseif strcmp(Result,C) == 1
             disp('You win!')
+            pause(0.5)
+            pause on
             disp(' ')
         else
             disp('You lose! Choose a valid input next time.')
+            pause(0.5)
+            pause on
         end
     end
     
@@ -97,7 +114,7 @@ function [NumWin] = RockPaperScissors(n)
     % modified to suit our needs. These modifications include: fixing the
     % code; considerations for unexpected input; ability to choose the
     % number of rounds played; number of wins, losses and ties reported back after game;
-    % changing some of the names of variables.
+    % changing some of the names of variables; added pause.
     %
     % Elements have also been taken from
     % https://www.youtube.com/watch?v=cn7CH1mikAQ 
