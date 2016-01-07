@@ -12,7 +12,7 @@ if A == 0
      elseif B == 1
          b = audioread('starwars.wav');
          sound(b,50000);
-        
+     elseif B == 2 
   
 
      
