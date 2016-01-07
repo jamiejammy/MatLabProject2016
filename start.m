@@ -45,6 +45,7 @@ else
     disp('   ')
     pause(1)
     disp('Sorry, you are not old enough to play the game')
+    pause(0.5)
     disp('Come back when you are 18 years old or above')
     disp('   ')
     start
