@@ -21,7 +21,7 @@ if L == 1
     end
 elseif L == 2
    if Agility > 6
-     disp('You’re are agile enough to keep running away from the zombies and you end up living out the apocalypse in a cave in the Lake District.')
+     disp('You’re agile enough to keep running away from the zombies and you end up living out the apocalypse in a cave in the Lake District.')
      disp(' ')
      disp('YOU SURVIVED THE ZOMBIE APOCALYPSE!.') 
      disp('They find a cure and the world eventually goes back to normal')
@@ -33,7 +33,7 @@ elseif L == 2
    end
  elseif L == 3
    if Intellect > 6
-     disp('You’r smart enough to hide in a suit of armour, and manage to steathily sneak to the kitchens daily to get food and survive. ')
+     disp('You’re smart enough to hide in a suit of armour, and manage to steathily sneak to the kitchens daily to get food and survive. ')
      disp(' ')
      disp('YOU SURVIVED THE ZOMBIE APOCALYPSE!.') 
      disp('They find a cure and the world eventually goes back to normal')
