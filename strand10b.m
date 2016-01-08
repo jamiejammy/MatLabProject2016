@@ -1,3 +1,4 @@
+
 %%
 Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
