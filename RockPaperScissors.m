@@ -1,7 +1,7 @@
 % To use in a script, type '[NumWin] = RockPaperScissors(n)' 
 % with n being the number of games to play.
 
-function [NumWin] = RockPaperScissors(n)
+function [NumWin, NumTie] = RockPaperScissors(n)
     if nargin < 1;
         n = [];
     end

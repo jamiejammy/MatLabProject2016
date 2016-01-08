@@ -29,7 +29,7 @@ if L == 1
         pause(1.5)
         disp(' ')
         strand7a
-    elseif player_score > 2
+    elseif player_score + 0.2*tied_score > 2
         disp('You’ve asserted your dominance through winning rock-paper-scissors.')
         pause(1.5)
         disp('You’re in charge now!')
@@ -47,8 +47,8 @@ if L == 1
     end
 elseif L == 2
     pause(0.5)
-    [NumWin] = RockPaperScissors(5);
-    if NumWin > 2
+    [NumWin, NumTie] = RockPaperScissors(5);
+    if NumWin+0.2*NumTie > 2
         disp('You’ve asserted your dominance through winning rock-paper-scissors.')
         pause(1.5)
         disp('You’re in charge now!')
