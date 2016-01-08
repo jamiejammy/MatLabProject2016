@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 pause(0.5)
+=======
+clear sound
+clear all
+
+>>>>>>> 478271e70f39d5f12ad191ea3f90d85d4f5972ec
 disp('.......................LOADING ROAD TO REMEDY...............................')
 pause(0.2)
 disp('                                21%')
