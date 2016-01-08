@@ -64,7 +64,7 @@ end
 
 disp('   ')
 disp('   ') 
-pause(1)
+pause(.5)
 AGE = input('Before we start the game, how old are you?          ');
 
 if AGE >= 18;
@@ -88,15 +88,15 @@ disp(' ')
 MUS = input('Do you want music throughout the game?: 1 for Yes,  0 for No         ');
 
 if MUS ==1
-    TRACK = input('Please choose your track: \n (0) Taking the Hobbits to Isengard \n (1) The Imperial March \n (2) Afro Circus \n  NOTICE: To stop music type clear sound \n\n');
+    TRACK = input('Please choose your track by choosing 0, 1 or 2: \n (0) Stormyzy ShutUp Instrumental \n (1) The Imperial March \n (2) Dubstep \n  NOTICE: To stop music type clear sound \n\n');
      if TRACK == 0
-        a = audioread('hobbits.wav');
+        a = audioread('stormzy.wav');
         sound(a,45000);
      elseif TRACK == 1
-         b = audioread('StarWars.wav');
+         b = audioread('Imperialmarch.wav');
          sound(b,45000);
      elseif TRACK == 2 
-         c = audioread('afrocircustrim.wav');
+         c = audioread('Dubstep.wav');
          sound(c,45000);
      else 
          disp(' ')
