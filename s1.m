@@ -1,4 +1,17 @@
-pause(0.5)
+%% This code adds the map. 
+Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+
+if Map == 0 ;
+   disp('')
+elseif Map == 1 ;
+    disp('Loading Map.....')
+    AP = 'https://www.google.co.uk/maps/dir/Austin+Pearce+Building,+University+of+Surrey,+Guildford,+Surrey+GU2+7XH/Austin+Pearce+Building/@51.2436646,-0.5932616,16.75z/data=!4m13!4m12!1m5!1m1!1s0x4875d0c185555555:0x273e8e5efc69aed8!2m2!1d-0.5894512!2d51.2439725!1m5!1m1!1s0x0:0x273e8e5efc69aed8!2m2!1d-0.5894512!2d51.2439725';
+    web(AP);
+    
+end
+
+%%
+pause(1.5)
 disp('                                                         ')
 pause(0.5)
 disp('You wake up half way through your 6-8 macroeconomics lecture.')
@@ -23,7 +36,7 @@ if L == 1;
     disp('Good idea, you make a break for it.')
     pause(0.5)
     disp(' ')
-    scenario2
+    s2
 elseif L == 2;
    if Strength < 7
      pause(0.5)
@@ -42,7 +55,7 @@ elseif L == 2;
       disp('Once you’have gotten over the fact you successfully pulled that off, you make a break for it.')
       pause(0.5)
       disp(' ')
-      scenario2
+      s2
    end
  elseif L == 3;
      pause(0.5)

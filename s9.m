@@ -1,4 +1,17 @@
-pause(0.5)
+%%
+Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+
+if Map == 0 ;
+   disp('')
+elseif Map == 1 ;
+    disp('Loading Map.....')
+    FulhamPalace = 'https://www.google.co.uk/maps/place/Fulham+Palace/@51.470557,-0.218036,17z/data=!3m1!4b1!4m2!3m1!1s0x48760fa06dd36177:0xeda410c8dfe100cc';
+    web(FulhamPalace);
+    
+end
+%%
+
+pause(0.75)
 disp('                                                         ')
 pause(0.5)
 disp('A group of 3 armed survivors are spotted outside of Fulham Palace...')

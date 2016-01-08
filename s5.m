@@ -1,5 +1,17 @@
+%%
+Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+
+if Map == 0 ;
+   disp('')
+elseif Map == 1 ;
+    disp('Loading Map.....')
+    Kingston = 'https://www.google.co.uk/maps/place/Kingston/@51.4125961,-0.3032574,17z/data=!3m1!4b1!4m2!3m1!1s0x48760bebb026ddff:0x5c35044c1665bd5f';
+    web(Kingston);
+    
+end
+%%
 disp('                                                         ')
-pause(0.5)
+pause(0.7)
 disp('You see a rusty old minivan driving through, you wave at them to come help you.')
 pause(1.5)
 disp('They stop for you as you jump onto the minivan and get away. They stop ahead to let you.')

@@ -1,4 +1,16 @@
-pause(0.5)
+%% MAP 2
+Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+
+if Map == 0 ;
+   disp('')
+elseif Map == 1 ;
+    disp('Loading Map.....')
+    Office = 'https://www.google.co.uk/maps/place/Centre+for+Research+in+Social+Simulation+-+CRESS/@51.243428,-0.5900911,18z/data=!4m2!3m1!1s0x0000000000000000:0x71c53b0fd95cf288';
+    web(Office);
+    
+end
+%%
+pause(1.5)
 disp('                                                         ')
 pause(0.5)
 disp('In the panic and amidst screaming students, you head to Antonio?s office.')

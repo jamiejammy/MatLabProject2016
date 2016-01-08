@@ -1,4 +1,16 @@
-pause(0.5)
+%%
+Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+
+if Map == 0 ;
+   disp('')
+elseif Map == 1 ;
+    disp('Loading Map.....')
+    PutneyBridge = 'https://www.google.co.uk/maps/place/Putney+Bridge,+London+SW6+3JD/@51.4667798,-0.2153056,17z/data=!3m1!4b1!4m2!3m1!1s0x48760f0ca20ed70d:0xc47a74350b964574';
+    web(PutneyBridge);
+    
+end
+%%
+pause(0.75)
 disp('                                                         ')
 pause(0.5)
 disp('Now with sufficient supplies, you make significant progress and arrive at Putney Bridge. ')

@@ -138,8 +138,8 @@ if Map == 0 ;
    disp('')
 elseif Map == 1 ;
     disp('Loading Map.....')
-    TheFlowerWalk = 'https://www.google.co.uk/maps/place/The+Flower+Walk,+London+W2+3XA/@51.5025883,-0.1830268,17z/data=!3m1!4b1!4m2!3m1!1s0x4876055a3bb3c4a9:0x7cd001f56a9a414e';
-    web(TheFlowerWalk);
+    HydePark = 'https://www.google.co.uk/maps/place/The+Flower+Walk,+London+W2+3XA/@51.5025883,-0.1830268,17z/data=!3m1!4b1!4m2!3m1!1s0x4876055a3bb3c4a9:0x7cd001f56a9a414e';
+    web(HydePark);
     
 end
 %14

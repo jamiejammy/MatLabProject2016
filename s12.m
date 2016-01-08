@@ -1,3 +1,15 @@
+%%
+Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+
+if Map == 0 ;
+   disp('')
+elseif Map == 1 ;
+    disp('Loading Map.....')
+    BuckinghamPalace= 'https://www.google.co.uk/maps/place/Buckingham+Palace/@51.501364,-0.144084,17z/data=!3m1!4b1!4m2!3m1!1s0x48760520cd5b5eb5:0xa26abf514d902a7';
+    web(BuckinghamPalace);
+    
+end
+%%
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
