@@ -20,15 +20,15 @@ pause(0.5)
 disp(' ')
 if L == 1
     pause(0.5)
-   disp('You cross the bridge and climb over the cars only to be greeted by a horde of zombie dogs, they attack you.')
-   pause(1.5)
-   disp('You manage to distract their attention with what’s left of your supplies.')
-   pause(1.5)
-   disp('And make a quick getaway into the deserted Fulham Palace across the river.')
-   pause(1.5)
-   disp(' ')
-   pause(0.5)
-   s9
+    disp('You cross the bridge and climb over the cars only to be greeted by a horde of zombie dogs, they attack you.')
+    pause(1.5)
+    disp('You manage to distract their attention with what’s left of your supplies.')
+    pause(1.5)
+    disp('And make a quick getaway into the deserted Fulham Palace across the river.')
+    pause(1.5)
+    disp(' ')
+    pause(0.5)
+    s9
 elseif L == 2
    if Strength < 6
        pause(0.5)
@@ -42,7 +42,7 @@ elseif L == 2
        disp('You successfully manage to cross the river, arriving on the banks of Fulham Palace.')
        pause(1.5)
        disp('However, most of your supplies were ruined during the swim.')
-       pause(1)
+       pause(1.5)
        disp('Due to the loss of supplies, you lose 1 strength and agility point.')
        Strength = Strength-1;
        Agility = Agility-1;
