@@ -31,7 +31,7 @@ if L == 1;
         disp('  ')
         pause(0.5)
         disp('Your pleas fall on death ears and she continues to attack you, ')
-        disp('forcing you to run away into a horde of zombies. You’re eaten.')
+        disp('forcing you to run away into a horde of zombies. You die.')
         death
     end
 elseif L == 2;
@@ -40,7 +40,7 @@ elseif L == 2;
      disp('You wake up to a couple of zombies chewing on your arm.')
      death
 elseif L == 3;
-    disp('You make a break for it, you haven’t got time for that agro.')
+    disp('You make a break for it, you haven?t got time for that agro.')
     strand7b
     
 end

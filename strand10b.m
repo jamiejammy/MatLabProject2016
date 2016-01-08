@@ -1,7 +1,7 @@
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
-disp('10. You make your way to Harrods, but you can barely take another step you’re so tired. ')
+disp('10. You make your way to Harrods, but you can barely take another step you?re so tired. ')
 pause(0.5)
 disp('Do you?  ')
 disp('  ')
@@ -21,7 +21,7 @@ if L == 1;
    pause(0.5)
    disp('You should be safe, and settle down to get a bit of sleep. ')
    pause(0.5)
-   disp('Here’s a game of … in the meantime.')
+   disp('Here?s a game of … in the meantime.')
    %%ADD GAME HERE
    s12
 elseif L == 2;

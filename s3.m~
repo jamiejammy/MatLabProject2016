@@ -25,18 +25,18 @@ if L == 1;
    disp(' ')
 elseif L == 2;
      pause(0.5)
-     disp('You?re a coward, but you?re alive.')
+     disp('You?re a coward, but you?re alive co.')
      pause(0.5)
      s4
 elseif L == 3;
     MB = randi([0 20]);
       if MB <= 17
           pause(0.5)
-          disp('You managed to slip past.')
+          disp('You managed to slip past')
           s4
       elseif MB >17
           pause(0.5)
-          disp('The zombies can?t get enough economist flesh, ')
+          disp('The zombies can’t get enough economist flesh, ')
           disp('and catch you as you try to make your way past. You die.')
           death
       end

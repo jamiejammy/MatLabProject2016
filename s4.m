@@ -20,14 +20,14 @@ pause(0.5)
 disp(' ')
 if L == 1
     pause(0.5)
-    disp('You safely escape the situation with you quick thinking skills and proceed towards your objective.')
+    disp('You safely escape the situation with your quick thinking skills and proceed towards your objective.')
     pause(0.5)
     disp(' ')
     s5
 elseif L == 2
    if Intellect > 7
        pause(0.5)
-       disp('You realize quickly you can’t use matlab to fix a fucking train and climb onto the roof.')
+       disp('You realize quickly you can?t use matlab to fix a fucking train and climb onto the roof.')
        pause(0.5)
        disp(' ')
        s5
@@ -35,7 +35,7 @@ elseif L == 2
        pause(0.5)
        disp('The zombies begin break through the windows and flood the train carriage.')
        pause(0.5)
-       disp('A wall of zombies rush towards yoou, blocking out the sunlight. That’s the last thing you see.')
+       disp('A wall of zombies rush towards yoou, blocking out the sunlight. That?s the last thing you see.')
        pause(0.5)
        death
    end

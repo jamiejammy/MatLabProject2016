@@ -15,7 +15,7 @@ disp(' ')
 pause(0.5)
 disp('1. Go and get the gun.')
 pause(0.5)
-disp('2. Run round the outside, it’s not worth the risk.  ')
+disp('2. Run round the outside, it?s not worth the risk.  ')
 pause(0.5)
 disp('3. Go and ask the police for help and directions to Buckingham Palace.  ')
 pause(0.5)
@@ -54,17 +54,17 @@ elseif L == 2;
     elseif Agility < 6
         disp('  ')
         pause(0.5)
-        disp('Zombies spot you and they think you’re the easier target,    ')
+        disp('Zombies spot you and they think you?re the easier target...    ')
         disp('so chase you and catch you. You die a gruesome death.')
         death
     end
         
 elseif L == 3;
-    disp('They’re a little preoccupied at the moment so ')
+    disp('They?re a little preoccupied at the moment so... ')
     disp('ask you to wait a second while they deal with the zombie attack. ')
     pause(0.5)
-    disp('You wait patiently like a good citizen, ')
-    disp('but the zombies don’t appreciate your good manners and eat you all the same.')
+    disp('You wait patiently like a good citizen... ')
+    disp('but the zombies don?t appreciate your good manners and eat you all the same.')
     strand8b
     
 end

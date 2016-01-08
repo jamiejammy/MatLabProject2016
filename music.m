@@ -1,5 +1,5 @@
 
-A = input('Do you want music throughout the game?: \n (1) Yes \n (2) No \n\n')
+A = input('Do you want music throughout the game?: \n (1) Yes \n (2) No \n\n');
 
 if A == 0
     start
