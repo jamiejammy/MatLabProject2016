@@ -1,3 +1,7 @@
+disp('  ')
+disp('  ')
+
+
 [A,map]=imread('deathgif.gif','frames','all'); 
 dea=immovie(A,map); 
 d = implay(dea, 5);
