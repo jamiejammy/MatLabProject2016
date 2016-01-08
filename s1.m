@@ -64,6 +64,6 @@ elseif L == 2;
      disp('You end up chomping on your lecturers face. You do not pass to the next stage.')
      pause(1)
      disp(' ')
-     start
+     death
 end
 
