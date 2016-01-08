@@ -1,3 +1,6 @@
+clear sound
+clear all
+
 disp('.......................LOADING ROAD TO REMEDY...............................')
 pause(0.2)
 disp('                                21%')
