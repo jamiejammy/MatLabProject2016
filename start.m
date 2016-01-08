@@ -80,6 +80,37 @@ end
 
 pause(1)
 disp(' ')
+
+MUS = input('Do you want music throughout the game?: 1 for Yes,  0 for No         ');
+
+if MUS ==1
+    TRACK = input('Please choose your track: \n (0) Taking the Hobbits to Isengard \n (1) The Imperial March \n (2) Afro Circus \n  NOTICE: To stop music type clear sound \n\n');
+     if TRACK == 0
+        a = audioread('hobbits.wav');
+        sound(a,45000);
+     elseif TRACK == 1
+         b = audioread('StarWars.wav');
+         sound(b,45000);
+     elseif TRACK == 2 
+         c = audioread('afrocircustrim.wav');
+         sound(c,45000);
+     else 
+         disp(' ')
+         pause(0.5)
+         disp('Please pick a valid track number')
+         pause(0.5)
+     end
+elseif MUS ==0;
+else 
+    disp(' ')
+    pause(0.5)
+    disp('Please enter a 1 or a 0')
+    start
+end
+%Star Wars theme is taken from this URL: https://www.youtube.com/watch?v=Mrbc1qMnkd4
+%Hobbits theme is taken from this URL:  https://www.youtube.com/watch?v=gLf1OFM8st4    
+%Afro Circus is taken from this URL:  https://www.youtube.com/watch?v=s5mJ_1ZWmqE
+    
 I = input('Allocate 20 stat points in the form of the vector [Strength Intellect Agility]   ');
 
 Strength = I(1,1);
