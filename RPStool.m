@@ -22,7 +22,7 @@ function varargout = RPStool(varargin)
 
 % Edit the above text to modify the response to help RPStool
 
-% Last Modified by GUIDE v2.5 07-Jan-2016 22:44:19
+% Last Modified by GUIDE v2.5 08-Jan-2016 01:47:47
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -59,7 +59,7 @@ handles.output = hObject;
 guidata(hObject, handles);
 
 % UIWAIT makes RPStool wait for user response (see UIRESUME)
-% uiwait(handles.figure1);
+uiwait(handles.figure1);
 
 
 % --- Outputs from this function are returned to the command line.
@@ -70,7 +70,16 @@ function varargout = RPStool_OutputFcn(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 % Get default command line output from handles structure
-varargout{1} = handles.output;
+varargout{1} = str2double(get(handles.hscore,'String'));
+varargout{2} = str2double(get(handles.tscore,'String'));
+varargout{3} = str2double(get(handles.cscore,'String'));
+varargout{4} = str2double(get(handles.round,'String'));
+assignin ('base','player_score',varargout{1});
+assignin ('base','tied_score',varargout{2});
+assignin ('base','comp_score',varargout{3});
+assignin ('base','num_rounds',varargout{4});
+% The figure can be deleted now
+delete(handles.figure1);
 
 
 % --- Executes on button press in Rock.
@@ -86,19 +95,30 @@ if Computer == 1
     a = str2double(get(handles.tscore,'String'));
     a = a+1;
     set(handles.tscore,'String',a);
+    d = str2double(get(handles.round,'String'));
+    d = d+1;
+    set(handles.round,'String',d);
 elseif Computer == 2
     set(handles.cplays,'String','Computer plays paper');
     set(handles.winner,'String','Computer wins!');
     b = str2double(get(handles.cscore,'String'));
     b = b+1;
     set(handles.cscore,'String',b);
+    d = str2double(get(handles.round,'String'));
+    d = d+1;
+    set(handles.round,'String',d);
 else
     set(handles.cplays,'String','Computer plays scissors');
     set(handles.winner,'String','You win!')
     c = str2double(get(handles.hscore,'String'));
     c = c+1;
     set(handles.hscore,'String',c);
+    d = str2double(get(handles.round,'String'));
+    d = d+1;
+    set(handles.round,'String',d);
 end
+
+
 
 % --- Executes on button press in Paper.
 function Paper_Callback(hObject, eventdata, handles)
@@ -113,18 +133,27 @@ if Computer == 1
     c = str2double(get(handles.hscore,'String'));
     c = c+1;
     set(handles.hscore,'String',c);
+    d = str2double(get(handles.round,'String'));
+    d = d+1;
+    set(handles.round,'String',d);
 elseif Computer == 2
     set(handles.cplays,'String','Computer plays paper');
     set(handles.winner,'String','It’s a tie!');
     a = str2double(get(handles.tscore,'String'));
     a = a+1;
     set(handles.tscore,'String',a);
+    d = str2double(get(handles.round,'String'));
+    d = d+1;
+    set(handles.round,'String',d);
 else
     set(handles.cplays,'String','Computer plays scissors');
     set(handles.winner,'String','Computer wins!')
     b = str2double(get(handles.cscore,'String'));
     b = b+1;
     set(handles.cscore,'String',b);
+    d = str2double(get(handles.round,'String'));
+    d = d+1;
+    set(handles.round,'String',d);
 end
 
 % --- Executes on button press in Scissors.
@@ -133,25 +162,34 @@ function Scissors_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 Computer = randi([1 3]);
-set(handles.hplays,'String','You play paper');
+set(handles.hplays,'String','You play scissors');
 if Computer == 1
     set(handles.cplays,'String','Computer plays rock');
     set(handles.winner,'String','Computer wins!');
     b = str2double(get(handles.cscore,'String'));
     b = b+1;
     set(handles.cscore,'String',b);
+    d = str2double(get(handles.round,'String'));
+    d = d+1;
+    set(handles.round,'String',d);
 elseif Computer == 2
     set(handles.cplays,'String','Computer plays paper');
-    set(handles.winner,'String','Ypu win!');
+    set(handles.winner,'String','You win!');
     c = str2double(get(handles.hscore,'String'));
     c = c+1;
     set(handles.hscore,'String',c);
+    d = str2double(get(handles.round,'String'));
+    d = d+1;
+    set(handles.round,'String',d);
 else
     set(handles.cplays,'String','Computer plays scissors');
     set(handles.winner,'String','It’s a tie!')
     a = str2double(get(handles.tscore,'String'));
     a = a+1;
     set(handles.tscore,'String',a);
+    d = str2double(get(handles.round,'String'));
+    d = d+1;
+    set(handles.round,'String',d);
 end
 
 
@@ -169,6 +207,23 @@ set(handles.cscore,'String',b);
 c = str2double(get(handles.hscore,'String'));
 c = 0;
 set(handles.hscore,'String',c);
+d= 0;
+set(handles.round,'String',d);
 set(handles.hplays,'String','You play ');
 set(handles.cplays,'String','Computer plays ');
 set(handles.winner,'String',' ')
+
+
+% --- Executes when user attempts to close figure1.
+function figure1_CloseRequestFcn(hObject, eventdata, handles)
+% hObject    handle to figure1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+if isequal(get(hObject, 'waitstatus'), 'waiting')
+    % The GUI is still in UIWAIT, us UIRESUME
+    uiresume(hObject);
+else
+    % The GUI is no longer waiting, just close it
+    delete(hObject);
+end
