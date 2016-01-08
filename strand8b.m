@@ -35,7 +35,7 @@ elseif L == 3;
     pause(0.5)
     disp('It turns out that the man is her husband and  ')
     disp('he gives you some more bullets for your gun, adding one strength point')
-    Strength = Strength + 1
+    Strength = Strength + 1;
     strand8b
     
 end

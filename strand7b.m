@@ -31,7 +31,7 @@ if L == 1;
         disp('You are quick and manage to avoid ricocheting bullets and pick up the gun. ')
         pause(0.5)
         disp('You gain two strength points. ')
-        Strength = Strength + 2
+        Strength = Strength + 2;
         strand8b
        
     elseif Agility < 6
