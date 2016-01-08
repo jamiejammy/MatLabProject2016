@@ -47,7 +47,7 @@ elseif L == 2
        disp('You weren’t strong enough to make the swim across the river, the currents push you around like a floating duck.')
        pause(1.5)
        disp('You drowned like a fish on land.')
-       pause(1)
+       pause(1.5)
        death
    else
        pause(0.5)
@@ -60,9 +60,9 @@ elseif L == 2
        Agility = Agility-1;
        pause(1)
        disp(['Your strength is now ',num2str(Strength)])
-       pause(0.5)
+       pause(1.5)
        disp(['Your agility is now ',num2str(Agility)])
-       pause(0.5)
+       pause(1.5)
        disp(' ')
        pause(0.5)
        s9
