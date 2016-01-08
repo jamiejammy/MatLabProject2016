@@ -1,3 +1,4 @@
+pause(0.5)
 disp('.......................LOADING ROAD TO REMEDY...............................')
 pause(0.2)
 disp('                                21%')
@@ -138,6 +139,6 @@ elseif sum(I) == 20
     if J == 0 
         start
     elseif J == 1
-        scenario1
+        s1
     end
 end

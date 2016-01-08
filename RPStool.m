@@ -90,7 +90,7 @@ function Rock_Callback(hObject, eventdata, handles)
 Computer = randi([1 3]);
 set(handles.hplays,'String','You play rock');
 if Computer == 1
-    set(handles.cplays,'String','Computer plays rock');
+    set(handles.cplays,'String','Julie plays rock');
     set(handles.winner,'String','It’s a tie!');
     a = str2double(get(handles.tscore,'String'));
     a = a+1;
@@ -99,8 +99,8 @@ if Computer == 1
     d = d+1;
     set(handles.round,'String',d);
 elseif Computer == 2
-    set(handles.cplays,'String','Computer plays paper');
-    set(handles.winner,'String','Computer wins!');
+    set(handles.cplays,'String','Julie plays paper');
+    set(handles.winner,'String','Julie wins!');
     b = str2double(get(handles.cscore,'String'));
     b = b+1;
     set(handles.cscore,'String',b);
@@ -108,7 +108,7 @@ elseif Computer == 2
     d = d+1;
     set(handles.round,'String',d);
 else
-    set(handles.cplays,'String','Computer plays scissors');
+    set(handles.cplays,'String','Julie plays scissors');
     set(handles.winner,'String','You win!')
     c = str2double(get(handles.hscore,'String'));
     c = c+1;
@@ -128,7 +128,7 @@ function Paper_Callback(hObject, eventdata, handles)
 Computer = randi([1 3]);
 set(handles.hplays,'String','You play paper');
 if Computer == 1
-    set(handles.cplays,'String','Computer plays rock');
+    set(handles.cplays,'String','Julie plays rock');
     set(handles.winner,'String','You win!');
     c = str2double(get(handles.hscore,'String'));
     c = c+1;
@@ -137,7 +137,7 @@ if Computer == 1
     d = d+1;
     set(handles.round,'String',d);
 elseif Computer == 2
-    set(handles.cplays,'String','Computer plays paper');
+    set(handles.cplays,'String','Julie plays paper');
     set(handles.winner,'String','It’s a tie!');
     a = str2double(get(handles.tscore,'String'));
     a = a+1;
@@ -146,8 +146,8 @@ elseif Computer == 2
     d = d+1;
     set(handles.round,'String',d);
 else
-    set(handles.cplays,'String','Computer plays scissors');
-    set(handles.winner,'String','Computer wins!')
+    set(handles.cplays,'String','Julie plays scissors');
+    set(handles.winner,'String','Julie wins!')
     b = str2double(get(handles.cscore,'String'));
     b = b+1;
     set(handles.cscore,'String',b);
@@ -164,8 +164,8 @@ function Scissors_Callback(hObject, eventdata, handles)
 Computer = randi([1 3]);
 set(handles.hplays,'String','You play scissors');
 if Computer == 1
-    set(handles.cplays,'String','Computer plays rock');
-    set(handles.winner,'String','Computer wins!');
+    set(handles.cplays,'String','Julie plays rock');
+    set(handles.winner,'String','Julie wins!');
     b = str2double(get(handles.cscore,'String'));
     b = b+1;
     set(handles.cscore,'String',b);
@@ -173,7 +173,7 @@ if Computer == 1
     d = d+1;
     set(handles.round,'String',d);
 elseif Computer == 2
-    set(handles.cplays,'String','Computer plays paper');
+    set(handles.cplays,'String','Julie plays paper');
     set(handles.winner,'String','You win!');
     c = str2double(get(handles.hscore,'String'));
     c = c+1;
@@ -182,7 +182,7 @@ elseif Computer == 2
     d = d+1;
     set(handles.round,'String',d);
 else
-    set(handles.cplays,'String','Computer plays scissors');
+    set(handles.cplays,'String','Julie plays scissors');
     set(handles.winner,'String','It’s a tie!')
     a = str2double(get(handles.tscore,'String'));
     a = a+1;
@@ -210,7 +210,7 @@ set(handles.hscore,'String',c);
 d= 0;
 set(handles.round,'String',d);
 set(handles.hplays,'String','You play ');
-set(handles.cplays,'String','Computer plays ');
+set(handles.cplays,'String','Julie plays ');
 set(handles.winner,'String',' ')
 
 
