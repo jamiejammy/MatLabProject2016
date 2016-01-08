@@ -1,6 +1,19 @@
+disp('.......................LOADING ROAD TO REMEDY...............................')
+pause(0.2)
+disp('                                21%')
+pause(0.4)
+disp('                                35%')
+pause(0.3)
+disp('                                68%')
+pause(0.5)
+disp('                                100%')
+pause(0.6)
+disp('   ')
+disp('   ')
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%STARTING VIDEO%%%%%%%%%%%%%%%%%%%%
-MOVIE = input('Would you like to watch the introductory video? 1 for Yes, 0 for No     ');
+MOVIE = input('Would you like to watch the introductory video?  1 for Yes, 0 for No     ');
 if MOVIE == 1
 [A,map]=imread('introgif.gif','frames','all'); 
 mov=immovie(A,map); 
@@ -22,7 +35,8 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+disp('  ')
+disp('  ')
 disp('Welcome to Road to Remedy®, the exciting new Zombie game by MBRRJ Studios')
 disp(' ')
 pause(1)
@@ -57,6 +71,7 @@ else
     pause(1)
     disp('Sorry, you are not old enough to play the game')
     pause(0.5)
+    disp('  ')
     disp('Come back when you are 18 years old or above')
     disp('   ')
     start
@@ -80,14 +95,14 @@ elseif sum(I) < 20,
     start
 elseif sum(I) == 20
     disp(' ')
-    pause(0.5)
+    pause(0.2)
     disp(['Strength = ',num2str(Strength)])
-    pause(0.5)
+    pause(0.2)
     disp(['Intellect = ',num2str(Intellect)])
-    pause(0.5)
+    pause(0.2)
     disp(['Agility = ',num2str(Agility)])
     disp(' ')
-    pause(0.5)
+    pause(0.2)
     J = input('Are you sure these are the stats you want? 1 for Yes, 0 for No   ');
     if J == 0 
         start
