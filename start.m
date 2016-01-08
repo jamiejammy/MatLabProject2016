@@ -142,6 +142,9 @@ elseif sum(I) == 20
     if J == 0 
         start
     elseif J == 1
+        disp(' ')
+        disp(' ')
+        disp(' ')
         s1
     end
 end
