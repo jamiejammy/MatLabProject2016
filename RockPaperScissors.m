@@ -75,37 +75,33 @@ function [NumWin] = RockPaperScissors(n)
 
         disp(' ')
         pause(0.5)
-        pause on
         disp(['You chose ',num2str(Player)])
         pause(0.5)
-        pause on
         disp(' ')
         pause(0.5)
-        pause on
         disp(['Computer chose ',num2str(AI)])
         pause(0.5)
-        pause on
         disp(' ')
 
         if strcmp(Result,A) == 1
+            pause(0.5)
             disp('It is a tie!')
             pause(0.5)
-            pause on
             disp(' ')
         elseif strcmp(Result,B) == 1
+            pause(0.5)
             disp('You lose!')
             pause(0.5)
-            pause on
             disp(' ')
         elseif strcmp(Result,C) == 1
+            pause(0.5)
             disp('You win!')
             pause(0.5)
-            pause on
             disp(' ')
         else
+            pause(0.5)
             disp('You lose! Choose a valid input next time.')
             pause(0.5)
-            pause on
         end
     end
     
