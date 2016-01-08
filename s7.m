@@ -90,18 +90,18 @@ elseif L == 2
 elseif L == 3
     pause(0.5)
     disp('The zombie stops advancing and stares at you for a while.')
-    pause(1)
+    pause(1.5)
     disp('You stare at the zombie.')
     pause(1.5)
     disp('The zombie stares at you.')
     pause(1.5)
     disp('You stare at the zom-')
-    pause(0.5)
+    pause(1.5)
     disp('The zombie lunges at you aiming for your neck')
-    pause(1)
+    pause(1.5)
     disp('You didn’t react fast enough')
-    pause(1)
+    pause(1.5)
     disp('You died.')
-    pause(2)
+    pause(1.5)
     death
 end
