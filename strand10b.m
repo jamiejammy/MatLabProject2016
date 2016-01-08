@@ -1,7 +1,7 @@
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
-disp('10. You make your way to Harrods, but you can barely take another step you?re so tired. ')
+disp('You make your way to Harrods, but you can barely take another step you are so tired. ')
 pause(0.5)
 disp('Do you?  ')
 disp('  ')
@@ -21,7 +21,7 @@ if L == 1;
    pause(0.5)
    disp('You should be safe, and settle down to get a bit of sleep. ')
    pause(0.5)
-   disp('Here?s a game of … in the meantime.')
+   disp('Here is a game of … in the meantime.')
    %%ADD GAME HERE
    s12
 elseif L == 2;
@@ -29,7 +29,7 @@ elseif L == 2;
     pause(0.5)
     disp('You have no strength to fight and no energy to run.')
     pause(0.5)
-    disp('You succumb to your fate, and they bite you. ')
+    disp('You succumb to your fate, and pray for a quick death. ')
     pause(0.5)
     death
 end

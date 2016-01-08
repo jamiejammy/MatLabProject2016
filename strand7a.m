@@ -18,7 +18,7 @@ if L == 1
     pause(0.5)
     disp('Once you’ve played 5 rounds, close the GUI window.')
     pause(2)
-    disp('Remember, close the window after 5 rounds!')
+    disp('Remember, close the window after reaching 5 rounds!')
     pause(2)
     disp(' ')
     RPStool
@@ -35,6 +35,7 @@ if L == 1
         disp('You’re in charge now!')
         pause(1.5)
         disp(' ')
+        strand8a
     else
         disp('Right as you finished your game of rock-paper-scissors, the both of you suddenly hear screams nearby.')
         pause(1.5)
@@ -54,6 +55,7 @@ elseif L == 2
         disp('You’re in charge now!')
         pause(1.5)
         disp(' ')
+        strand8a
     else
         disp('Right as you finished your game of rock-paper-scissors, the both of you suddenly hear screams nearby.')
         pause(1.5)

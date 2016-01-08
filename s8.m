@@ -20,7 +20,7 @@ pause(0.5)
 disp(' ')
 if L == 1
     pause(0.5)
-    disp('You cross the bridge and climb over the cars only to be greeted by a horde of zombie dogs, they attack you.')
+    disp('You cross the bridge and climb over the cars only to be greeted by a horde of zombie dogs. They proceed to attack you.')
     pause(1.5)
     disp('You manage to distract their attention with what’s left of your supplies.')
     pause(1.5)
