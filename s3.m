@@ -33,12 +33,12 @@ pause(0.5)
 disp(' ')
 if L == 1;
    pause(0.5)
-   disp('Heroic, but stupid. You’re both surrounded by the zombies and quickly die. ')
+   disp('Heroic, but stupid. You’are both surrounded by the zombies and quickly die. ')
    pause(1.5)
    disp(' ')
 elseif L == 2;
      pause(0.5)
-     disp('You’re a coward, but you’re alive.')
+     disp('You’are a coward, but you’are alive.')
      pause(1.5)
      s4
 elseif L == 3;
@@ -50,7 +50,7 @@ elseif L == 3;
           s4
       elseif MB >17
           pause(0.5)
-          disp('The zombies can’t get enough economist flesh, ')
+          disp('The zombies cannot get enough economist flesh, ')
           pause(1.5)
           disp('and catch you as you try to make your way past. You die.')
           pause(1.5)
