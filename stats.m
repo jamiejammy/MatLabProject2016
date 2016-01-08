@@ -27,9 +27,32 @@ elseif sum(I) == 20
         disp(' ')
         stats
     elseif J == 1
+        pause(0.5)
         disp(' ')
+        pause(0.5)
+        K = input('Would you like to use cheats? (recommended for second playthrough+) 1 for Yes, 0 for No   ');
+        pause(0.5)
         disp(' ')
-        disp(' ')
-        s1
+        pause(0.5)
+        if K == 1
+            disp('Cheats have been enabled')
+            Strength = 15;
+            Intellect = 15;
+            Agility = 15;
+            Luck = 100;
+            s1
+        elseif K == 0 
+            disp(' ')
+            disp('Enjoy the game!')
+            disp(' ')
+            s1
+        else
+            disp('Please enter valid input')
+            stats
+        end
     end
+else
+    disp('Please enter valid input')
+    stats
 end
+
