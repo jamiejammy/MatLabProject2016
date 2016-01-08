@@ -26,7 +26,10 @@ if L == 1;
    s12
 elseif L == 2;
     disp('You keep going, but are set upon by zombies. ')
+    pause(0.5)
     disp('You have no strength to fight and no energy to run.')
-    disp(' You succumb to your fate, and they bite you. ')
+    pause(0.5)
+    disp('You succumb to your fate, and they bite you. ')
+    pause(0.5)
     death
 end
