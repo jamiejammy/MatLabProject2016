@@ -50,6 +50,7 @@ pause(1)
 ST = input('Would you like to start your adventure? 1 for Yes, 0 for No      ');
 
 if ST == 0;
+    disp('    ')
     disp('That is a shame')
     disp('    ')
     start
