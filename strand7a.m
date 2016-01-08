@@ -18,7 +18,7 @@ if L == 1
     pause(0.5)
     disp('Once you’ve played 5 rounds, close the GUI window.')
     pause(2)
-    disp('Remember, close the window after 5 rounds!')
+    disp('Remember, close the window after reaching 5 rounds!')
     pause(2)
     disp(' ')
     RPStool
