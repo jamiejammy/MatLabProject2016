@@ -1,3 +1,16 @@
+%%
+Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+
+if Map == 0 ;
+   disp('')
+elseif Map == 1 ;
+    disp('Loading Map.....')
+    Harrods= 'https://www.google.co.uk/maps/place/Harrods/@51.4994055,-0.1654231,17z/data=!3m1!4b1!4m2!3m1!1s0x48760538ed2a30ff:0x15ee630d4b4e0d42';
+    web(Harrods);
+    
+end
+
+%%
 pause(0.5)
 disp('                                                         ')
 pause(0.5)

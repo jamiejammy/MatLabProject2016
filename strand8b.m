@@ -1,3 +1,16 @@
+%%
+
+Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+
+if Map == 0 ;
+   disp('')
+elseif Map == 1 ;
+    disp('Loading Map.....')
+    Battersea= 'https://www.google.co.uk/maps/place/Battersea+Power+Station/@51.4818235,-0.1465923,17z/data=!3m1!4b1!4m2!3m1!1s0x487604fd7f539fe1:0x96a0bfdb4e42515d';
+    web(Battersea);
+    
+end
+%%
 pause(0.5)
 disp('                                                         ')
 pause(0.5)

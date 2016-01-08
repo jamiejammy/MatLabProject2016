@@ -1,4 +1,18 @@
-pause(0.5)
+%%
+
+Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+
+if Map == 0 ;
+   disp('')
+elseif Map == 1 ;
+    disp('Loading Map.....')
+    WimbledonTennis= 'https://www.google.co.uk/maps/place/Wimbledon+Park+Tennis+Court/@51.435656,-0.2048301,17z/data=!3m1!4b1!4m2!3m1!1s0x48760f4b875b6f2f:0xd78b2de019f2cfc3';
+    web(WimbledonTennis);
+    
+end
+%%
+
+pause(0.75)
 disp('                                                         ')
 pause(0.5)
 disp('You have a new companion to make your way to the palace with, she introduces herself as Julie. ')

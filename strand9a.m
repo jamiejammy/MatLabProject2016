@@ -1,4 +1,15 @@
-pause(0.5)
+%%
+Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+
+if Map == 0 ;
+   disp('')
+elseif Map == 1 ;
+    disp('Loading Map.....')
+    Shop = 'https://www.google.co.uk/maps/place/Convenience+Store/@51.4442693,-0.2071603,21z/data=!4m2!3m1!1s0x0000000000000000:0xf1dac91475ce727e'
+    web(Shop)
+end
+%%
+pause(0.75)
 disp('                                                         ')
 pause(0.5)
 disp('Back in the minivan with Julie you know where you’re going. ')
