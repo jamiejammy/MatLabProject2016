@@ -34,11 +34,19 @@ elseif L == 2
  elseif L == 3
      r = randi([0 100],1,1);
      if r > 19
+         pause(0.5)
          disp('You manage to find a spoon in Starbucks, adding 1 strength points.')
-         disp('Maybe go for the eyes? Armed with this, you’ll be more help to Mele, and meet him at the Cathedral.')
+         pause(0.5)
+         disp('Maybe go for the eyes? Armed with this, you’ll be of more help to Mele, and meet him at the Cathedral.')
+         pause(0.5)
          Strength = Strength+1;
+         s3
      else
+         pause(0.5)
          disp('You searched around building but to avail, from the corner of your eye you spot a zombie.')
+         pause(0.5)
          disp('With no weapon and wet trousers, you curse your fate as you’re eaten alive')
+         pause(0.5)
+         death
      end    
 end
