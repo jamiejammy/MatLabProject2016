@@ -1,0 +1,61 @@
+pause(0.5)
+disp('                                                         ')
+pause(0.5)
+disp('You manage to arrive at a high vantage point with Chelsea and Westminster Hospital in view.')
+pause(0.5)
+disp('Soon after, an endless array of zombies move in around the hospital. Do you?')
+pause(0.5)
+disp('  ')
+disp('  ')
+pause(1)
+disp('1. Try to get around the hospital and continue onto Buckingham Palace')
+pause(0.5)
+disp('2. Go in all guns blazing')
+pause(0.5)
+disp('Check your supplies you took from the survivors')
+pause(1)
+L = input('Choose 1,2 or 3:    ');
+disp('   ')
+if L == 1;
+    if Agility > 7
+        disp('  ')
+        pause(0.5)
+        disp('You encounter a pack of zombie dogs as you traverse around the hospital but  manage to out manouver them dogs using your sick ass skills.')
+        s11
+    elseif Agility < 7
+        disp('  ')
+        pause(0.5)
+        disp('You encounter a pack of zombie dogs as you traverse around the hospital, your leg gets caught on a fence and you get mauled to death')
+        death
+    end
+elseif L == 2;
+    if Strength >= 10
+        disp('  ')
+        pause(0.5)
+        disp('You go in all guns blazing, attracting the attention of the surrounding zombies...')
+        pause(0.5)
+        disp('You?re quickly swarmed but you somehow manage to get out of the ordeal alive')
+        pause(0.5)
+        s11
+    
+    elseif Strength < 10
+        disp('  ')
+        pause(0.5)
+        disp('You go in all guns blazing, attracting the attention of the surrounding zombies. ')
+        pause(0.5)
+        disp('You?re quickly swarmed and the zombies become too much for you to handle, you are soon overwhelmed.')
+        death
+    end
+    
+elseif L == 3;
+    disp('  ')
+    pause(0.5)
+    disp('You check the supply bags and find some flares...')
+    pause(0.5)
+    disp('you quickly throw the flares in different directions to attract the zombies and make a path')
+    s11
+end
+
+        
+        
+        
