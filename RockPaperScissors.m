@@ -110,9 +110,9 @@ function [NumWin] = RockPaperScissors(n)
     % modified to suit our needs. These modifications include: fixing the
     % code; considerations for unexpected input; ability to choose the
     % number of rounds played; number of wins, losses and ties reported back after game;
-    % changing some of the names of variables; added pause.
+    % changing some of the names of variables; added pauses.
     %
     % Elements have also been taken from
     % https://www.youtube.com/watch?v=cn7CH1mikAQ 
     % which include: ability to choose the number of rounds played,
-    % and number of wins, losses and ties reported back after game.
+    % and number of wins reported back after game.
