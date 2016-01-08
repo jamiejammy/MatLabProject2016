@@ -30,7 +30,7 @@ if L == 1;
 elseif L == 2;
     disp('You continue on your way to the Palace, but you’re feeling weak.  ')
     disp('You lose 1 agility point. ')
-    Agility = Agility - 1
+    Agility = Agility - 1;
     strand10b
 
 end
