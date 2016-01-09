@@ -19,11 +19,11 @@ pause(1.5)
 disp('Some manage to cling on to the car as you get away, and crawl onto the roof.  ')
 pause(1.5)
 disp('As Julie swerves to shake them off they fall onto the windscreen, blocking Julie’s view.  ')
-pause(1.0)
-disp('She can’t see anything as she drives, and the minivan careers straight into a shop front. ')
-pause(1)
+pause(1.5)
+disp('She cannot see anything as she drives, and the minivan careers straight into a shop front. ')
+pause(1.5)
 disp('You wake up with a ringing in your ears, and zombies closing in around the van. ')
-pause(1)
+pause(1.5)
 disp('Do you? ')
 disp(' ')
 disp('  ')
@@ -43,48 +43,51 @@ if L == 1
     if Agility >= 7
         pause(1)
         disp('You climb onto the roof of the van and jump over the onrushing zombies.')
+        pause(1.5)
         strand10a
     elseif Agility < 7
         disp('You try to escape through the back of the shop, but the door is locked, you’re trapped. ')
+        pause(1.5)
         disp('The zombies throw you into the ice-cream freezer to keep you fresh for later. ')
+        pause(1.5)
         death
     end
 elseif L == 2
    if Strength >= 6
        pause(0.5)
        disp('You show the zombies some more forehand top-spin and knock a few heads off in the process. ')
-       pause(0.5)
+       pause(1.5)
        disp('The zombies retreat, and you make your way back to Julie. ')
-       pause(0.5)
-       disp('It’s too late for her though, the steering wheel has made a messy hole in her ribcage.')
-       pause(0.5)
+       pause(1.5)
+       disp('It’is too late for her though, the steering wheel has made a messy hole in her ribcage.')
+       pause(1.5)
        strand10a
    elseif Strength < 6
        pause(0.5)
        disp('You try to fight them off but there are too many of them. ')
-       pause(0.5)
+       pause(1.5)
        disp('You’re still dazed from the car crash,  ')
-       pause(0.5)
+       pause(1.5)
        disp('and a black curtain falls before your eyes as the zombies close in.')
-       pause(0.5)
+       pause(1.5)
        disp('The zombies eat you and move onto Julie, who died in the crash.')
-       pause(0.5)
+       pause(1.5)
        death
    end
 elseif L == 3
     if Intellect >= 7
         disp('You throw Julie on the back seat, get the car running again and manage to run them over. ')
-        pause(1)
+        pause(1.5)
         disp('When you get clear you turn your attention to Julie, but she died in the crash.')
-        pause(1)
+        pause(1.5)
         disp('Blood is pouring out of a huge, steering-wheel shaped hole in her chest.')
-        pause(1)
+        pause(1.5)
         strand10a
     elseif Intellect < 7
-        disp('You don’t manage to get the car running and zombies pour in through the smashed windows. ')
-        pause(1)
+        disp('You do’not manage to get the car running and zombies pour in through the smashed windows. ')
+        pause(1.5)
         disp('Their snarls drown out the screams.')
-        pause(1)
+        pause(1.5)
         death      
     end
 end
