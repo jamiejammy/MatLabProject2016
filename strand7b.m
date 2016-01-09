@@ -12,18 +12,18 @@ end
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
-disp('7. You run away from the Mum, and keep on running. ')
-pause(0.5)
+disp('You run away from the Mum, and keep on running. ')
+pause(1.5)
 disp('Eventually you stop and find yourself on Clapham Common.  ')
-pause(0.5)
+pause(1.5)
 disp('You can hear gunshots and go and investigate.   ')
-pause(0.5)
+pause(1.5)
 disp('You see an armed police unit firing on a horde of zombies.  ')
-pause(0.5)
+pause(1.5)
 disp('A man goes down and you see his gun fall next to him. Do you?  ')
 disp(' ')
 disp(' ')
-pause(0.5)
+pause(1.5)
 disp('1. Go and get the gun.')
 pause(0.5)
 disp('2. Run round the outside, it?s not worth the risk.  ')
@@ -40,8 +40,9 @@ if L == 1;
         disp(' ')
         pause(0.5)
         disp('You are quick and manage to avoid ricocheting bullets and pick up the gun. ')
-        pause(0.5)
+        pause(1.5)
         disp('You gain two strength points. ')
+        pause(1.5)
         Strength = Strength + 2;
         strand8b
        
@@ -49,8 +50,9 @@ if L == 1;
         disp('  ')
         pause(0.5)
         disp('You run quickly over, but not quickly enough. ')
-        pause(0.5)
+        pause(1.5)
         disp('You get caught in the crossfire and you die. ')
+        pause(1.5)
         death
     end
 elseif L == 2;
@@ -58,8 +60,9 @@ elseif L == 2;
         disp(' ')
         pause(0.5)
         disp('You manage to run around the carnage unfolding on the green and reach relative safety.  ')
-        pause(0.5)
+        pause(1.5)
         disp('You find a gun next to a dead police officer anyway. Good decision. ')
+        pause(1.5)
         strand8b
        
     elseif Agility < 6
@@ -71,11 +74,14 @@ elseif L == 2;
     end
         
 elseif L == 3;
-    disp('They?re a little preoccupied at the moment so... ')
+    disp('They are a little preoccupied at the moment so... ')
+    pause(1.5)
     disp('ask you to wait a second while they deal with the zombie attack. ')
-    pause(0.5)
+    pause(1.5)
     disp('You wait patiently like a good citizen... ')
+    pause(1.5)
     disp('but the zombies don?t appreciate your good manners and eat you all the same.')
+    pause(1.5)
     strand8b
     
 end
