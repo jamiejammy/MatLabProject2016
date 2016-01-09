@@ -13,9 +13,18 @@ pa = 6;
 pause(pa)
 close(w);
 clear sound
-
+pause(0.5)
+disp('Congratulations! You''ve beaten the game.')
+pause(1.5)
+disp('There''s four routes to beat, can you finish them all?')
+pause(1.5)
+disp(' ')
+pause(0.5)
 STA = input('Would you like to restart the game?      1 for Yes, 0 for No             ');
 if STA == 1
+    pause(0.5)
+    clc
+    pause(0.5)
     start
 elseif STA == 0
     [A,map]=imread('credgif.gif','frames','all'); 

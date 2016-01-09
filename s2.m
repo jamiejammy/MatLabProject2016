@@ -17,7 +17,7 @@ disp('                                                         ')
 pause(0.5)
 disp('In the panic and amidst screaming students, you head to Antonio''s office.')
 pause(1.5)
-disp('He always knew this would happen, he’is the only one who can help.')
+disp('He always knew this would happen, he''s the only one who can help.')
 pause(1.5)
 disp('He tells you about a safe haven in Buckingham Palace, where the remedy is being developed. Do you? ')
 pause(1.5)
@@ -49,7 +49,7 @@ elseif L == 2
      r = randi([0 100],1,1);
      if r > 19
          pause(0.5)
-         disp('You manage to find a spoon in Starbucks, adding 1 strength points.')
+         disp('You manage to find a spoon in Starbucks, adding 1 strength point.')
          pause(1.5)
          disp('Maybe go for the eyes? Armed with this, you''ll be of more help to Mele, and meet him at the Cathedral.')
          pause(1.5)
