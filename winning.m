@@ -31,5 +31,5 @@ elseif STA == 0
     disp(' ')
 else 
     disp('Please enter a 1 or a 0')
-    death
+    winning
 end

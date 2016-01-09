@@ -22,7 +22,7 @@ disp('First thing''s first, you need to sort out who''s in charge. She claims it
 pause(1.5)
 disp('You claim it should be you because you go to the University of the year. ')
 pause(1.5)
-disp('There''is only one way to settle this: the old, classic Rock-paper-scissors. Best of five. ')
+disp('There''s only one way to settle this: the old, classic Rock-paper-scissors. Best of five. ')
 pause(1.0)
 disp(' ')
 pause(0.5)
