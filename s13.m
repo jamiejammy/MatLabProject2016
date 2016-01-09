@@ -1,3 +1,5 @@
+disp(' ')
+%%
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
