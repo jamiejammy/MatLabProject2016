@@ -42,7 +42,7 @@ if L == 1
 elseif L == 2
    if Intellect > 7
        pause(0.5)
-       disp('You realize quickly you can''t use matlab to fix a fucking train and climb onto the roof.')
+       disp('You realize quickly you can''t use matlab to fix a train and climb onto the roof.')
        pause(1.5)
        disp(' ')
        pause(0.5)
