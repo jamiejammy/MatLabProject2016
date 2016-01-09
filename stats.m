@@ -1,4 +1,4 @@
-I = input('Allocate 20 stat points in the form of the vector [Strength Intellect Agility]   ');
+I = input('Allocate 20 stat points in the form of the vector [Strength Intellect Agility]  eg [5 6 9]      ');
 
 Strength = I(1,1);
 Intellect = I(1,2);
