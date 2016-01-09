@@ -54,7 +54,7 @@ elseif L == 2;
       pause(0.5)
       disp('You actually managed to pull off a roundhouse kick from your 5 years of Taekwondo training.')
       pause(1.5)
-      disp('Once you''have gotten over the fact you successfully pulled that off, you make a break for it.')
+      disp('Once you have gotten over the fact you successfully pulled that off, you make a break for it.')
       pause(1.5)
       disp(' ')
       s2
