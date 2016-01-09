@@ -1,18 +1,18 @@
 disp(' ')
 disp(' ')
 %%
-Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+%Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
-if Map == 0 ;
-   disp('')
-elseif Map == 1 ;
-    disp('Loading Map.....')
-    Station = 'https://www.google.co.uk/maps/place/Guildford/@51.2369348,-0.5805226,20z/data=!4m2!3m1!1s0x4875d09442f4df1f:0xf3bf0c41dd28fb0c';
-    web(Station);
+%if Map == 0 ;
+  % disp('')
+%elseif Map == 1 ;
+    %disp('Loading Map.....')
+    %Station = 'https://www.google.co.uk/maps/place/Guildford/@51.2369348,-0.5805226,20z/data=!4m2!3m1!1s0x4875d09442f4df1f:0xf3bf0c41dd28fb0c';
+   %web(Station);
     
-end
+%end
 %%
-pause(0.75)
+pause(0.5)
 disp('                                                         ')
 pause(0.5)
 disp('You run towards the station and board a train hoping to reach the capital. ')

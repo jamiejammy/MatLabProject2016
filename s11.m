@@ -1,16 +1,16 @@
 disp(' ')
 disp(' ')
 %%
-Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+%Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
-if Map == 0 ;
-   disp('')
-elseif Map == 1 ;
-    disp('Loading Map.....')
-    HydePark = 'https://www.google.co.uk/maps/place/Hyde+Park+Corner/@51.5064843,-0.1764668,15z/data=!4m7!1m4!3m3!1s0x4876055a3bb3c4a9:0x7cd001f56a9a414e!2sThe+Flower+Walk,+London+W2+3XA!3b1!3m1!1s0x487605253591733f:0xafe173c3e88d951f';
-    web(HydePark);
+%if Map == 0 ;
+   %disp('')
+%elseif Map == 1 ;
+   % disp('Loading Map.....')
+   % HydePark = 'https://www.google.co.uk/maps/place/Hyde+Park+Corner/@51.5064843,-0.1764668,15z/data=!4m7!1m4!3m3!1s0x4876055a3bb3c4a9:0x7cd001f56a9a414e!2sThe+Flower+Walk,+London+W2+3XA!3b1!3m1!1s0x487605253591733f:0xafe173c3e88d951f';
+    %web(HydePark);
     
-end
+%end
 %%
 pause(0.5)
 disp('                                                         ')

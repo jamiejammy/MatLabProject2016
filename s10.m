@@ -1,14 +1,14 @@
 disp(' ')
 disp(' ')
 %%
-Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+%Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
-if Map == 0 ;
-   disp('')
-elseif Map == 1 ;
-    disp('Loading Map.....')
-    CravenCottage = 'https://www.google.co.uk/maps/place/Craven+Cottage/@51.4748946,-0.2239739,17z/data=!3m1!4b1!4m2!3m1!1s0x48760fa7a4488157:0xa0377f648d942d05';
-    web(CravenCottage);
+%if Map == 0 ;
+ %  disp('')
+%elseif Map == 1 ;
+    %disp('Loading Map.....')
+    %CravenCottage = 'https://www.google.co.uk/maps/place/Craven+Cottage/@51.4748946,-0.2239739,17z/data=!3m1!4b1!4m2!3m1!1s0x48760fa7a4488157:0xa0377f648d942d05';
+   % web(CravenCottage);
  %%
 pause(0.5)
 disp('                                                         ')

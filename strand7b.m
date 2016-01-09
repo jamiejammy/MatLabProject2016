@@ -1,15 +1,15 @@
 disp(' ')
 disp(' ')
 %%
-Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+%Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
-if Map == 0 ;
-   disp('')
-elseif Map == 1 ;
-    disp('Loading Map.....')
-   LaBaita= 'https://www.google.co.uk/maps/place/La+Baita/@51.4583619,-0.1508096,17z/data=!3m1!4b1!4m2!3m1!1s0x487605b38cd3b3a5:0x1c1a4908ce2e4815';
-    web(LaBaita);
-end
+%if Map == 0 ;
+  % disp('')
+%elseif Map == 1 ;
+  %  disp('Loading Map.....')
+ %  LaBaita= 'https://www.google.co.uk/maps/place/La+Baita/@51.4583619,-0.1508096,17z/data=!3m1!4b1!4m2!3m1!1s0x487605b38cd3b3a5:0x1c1a4908ce2e4815';
+%    web(LaBaita);
+%end
 %%
 pause(0.5)
 disp('                                                         ')

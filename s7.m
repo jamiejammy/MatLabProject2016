@@ -1,16 +1,16 @@
 disp(' ')
 disp(' ')
 %%
-Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+%Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
-if Map == 0 ;
-   disp('')
-elseif Map == 1 ;
-    disp('Loading Map.....')
-    Wandsworth = 'https://www.google.co.uk/maps/place/London+Borough+of+Wandsworth,+Greater+London/@51.4518171,-0.2278435,13z/data=!3m1!4b1!4m2!3m1!1s0x48760589ff8fea83:0x37252c9ca56f68d2';
-    web(Wandsworth);
+%if Map == 0 ;
+ %  disp('')
+%elseif Map == 1 ;
+ %   disp('Loading Map.....')
+  %  Wandsworth = 'https://www.google.co.uk/maps/place/London+Borough+of+Wandsworth,+Greater+London/@51.4518171,-0.2278435,13z/data=!3m1!4b1!4m2!3m1!1s0x48760589ff8fea83:0x37252c9ca56f68d2';
+  %  web(Wandsworth);
     
-end
+%end
 %%
 pause(0.5)
 disp('                                                         ')

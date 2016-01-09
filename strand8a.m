@@ -1,16 +1,16 @@
 disp(' ')
 disp(' ')
 %%
-Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+%Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
-if Map == 0 ;
-   disp('')
-elseif Map == 1 ;
-    disp('Loading Map.....')
-    EnglandLawnTennis = 'https://www.google.co.uk/maps/place/The+All+England+Lawn+Tennis+Club+Centre+Court/@51.4337283,-0.2162504,17z/data=!3m1!4b1!4m2!3m1!1s0x48760f3453631b3b:0xd1db13348fafadd0';
-    web(EnglandLawnTennis);
+%if Map == 0 ;
+  % disp('')
+%elseif Map == 1 ;
+  %  disp('Loading Map.....')
+  %  EnglandLawnTennis = 'https://www.google.co.uk/maps/place/The+All+England+Lawn+Tennis+Club+Centre+Court/@51.4337283,-0.2162504,17z/data=!3m1!4b1!4m2!3m1!1s0x48760f3453631b3b:0xd1db13348fafadd0';
+  %  web(EnglandLawnTennis);
     
-end
+%end
 %%
 
 pause(0.5)

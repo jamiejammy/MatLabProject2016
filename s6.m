@@ -1,16 +1,16 @@
 disp(' ')
 disp(' ')
 %%
-Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+%Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
-if Map == 0 ;
-   disp('')
-elseif Map == 1 ;
-    disp('Loading Map.....')
-    Wimbledon = 'https://www.google.co.uk/maps/place/Berkeley+Homes:+Wimbledon+Hill+Park/@51.4170365,-0.2406636,17z/data=!4m2!3m1!1s0x0000000000000000:0xa54f3606249f358e';
-    web(Wimbledon);
+%if Map == 0 ;
+%   disp('')
+%elseif Map == 1 ;
+ %   disp('Loading Map.....')
+ %   Wimbledon = 'https://www.google.co.uk/maps/place/Berkeley+Homes:+Wimbledon+Hill+Park/@51.4170365,-0.2406636,17z/data=!4m2!3m1!1s0x0000000000000000:0xa54f3606249f358e';
+ %   web(Wimbledon);
     
-end
+%end
 %%
 
 
