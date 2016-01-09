@@ -47,13 +47,10 @@ elseif L == 2;
     strand9b
 elseif L == 3;
     disp('You turn round to get help, when you meet a man already running to help. ')
-    pause(1.5)
     disp('You tag-team the zombies.  ')
-    pause(1.5)
-    disp('It turns out that the man is her husband and...  ')
-    pause(1.5)
+    pause(0.5)
+    disp('It turns out that the man is her husband and  ')
     disp('he gives you some more bullets for your gun, adding one strength point')
-    pause(1.5)
     Strength = Strength + 1;
     strand9b
     
