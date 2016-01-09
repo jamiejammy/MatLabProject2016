@@ -36,12 +36,12 @@ if L == 1;
     disp('You die. You just attacked hundreds of zombies, what did you expect?')
     death
 elseif L == 2;
-    if Strength + Agility > 13
+    if Strength + Agility > 12
     disp('  ')
     pause(0.5)
     disp('You move quietly and quickly around the group, make it to the Serpentine where you hide in the water for a while')
     s12
-    elseif Strength + Agility <= 13
+    elseif Strength + Agility <= 12
         disp('  ')
         pause(0.5)
         disp('You try to edge around the group but you are too slow. They see you and catch you, and you''re eaten alive by hundreds of zombies')
@@ -49,13 +49,13 @@ elseif L == 2;
     end
     
 elseif L == 3;
-    if Intellect >= 8
+    if Intellect >= 7
     disp('  ')
     pause(0.5)
     disp('You cover yourself in zombie guts from a nearby dead zombie, hear the plan and go on to Buckingham Palace')
     s12
     
-    elseif Intellect < 8
+    elseif Intellect < 7
     disp('  ')
     pause(0.5)
     disp('You think it''s a good idea to hide behind a rock, and you die')
