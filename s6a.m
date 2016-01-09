@@ -27,7 +27,7 @@ if L == 1;
         pause(0.5)
         disp('The mum stops her attack on you at your explanation to look at her daughter. ')
         pause(1.5)
-        disp('She’s slumped in her seat. Half human, half zombie. ')
+        disp('She''s slumped in her seat. Half human, half zombie. ')
         pause(1.5)
         disp('She forgives you and you tell her about the haven in the palace.')
         pause(1.5)
@@ -56,7 +56,7 @@ elseif L == 2;
      death
 elseif L == 3;
     pause(0.5)
-    disp('You make a break for it, you haven’t got time for that agro.')
+    disp('You make a break for it, you haven''t got time for that agro.')
     pause(1.5)
     disp(' ')
     pause(0.5)

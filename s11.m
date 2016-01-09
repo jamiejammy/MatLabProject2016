@@ -15,7 +15,7 @@ disp(' ')
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
-disp('You?ve snuck through to Hyde Park Corner...')
+disp('You''ve snuck through to Hyde Park Corner...')
 pause(0.5)
 disp('the leader of the zombie movement is standing atop a box, rallying hundreds of zombies around him into a bloody frenzy. Do you?')
 pause(0.5)
@@ -24,7 +24,7 @@ disp('  ')
 pause(1)
 disp('1. Take the leader out. This is your chance to be the hero and buy the guys at Buckingham Palace some time. ')
 pause(0.5)
-disp('2. Sneak past them and hide in the Serpentine until they?ve moved on.')
+disp('2. Sneak past them and hide in the Serpentine until they''ve moved on.')
 pause(0.5)
 disp('3. Disguise yourself, stop and listen to hear the zombie plan of attack. ')
 pause(1)
@@ -44,7 +44,7 @@ elseif L == 2;
     elseif Strength + Agility <= 13
         disp('  ')
         pause(0.5)
-        disp('You try to edge around the group but you are too slow. They see you and catch you, and you?re eaten alive by hundreds of zombies')
+        disp('You try to edge around the group but you are too slow. They see you and catch you, and you''re eaten alive by hundreds of zombies')
         death
     end
     
@@ -58,7 +58,7 @@ elseif L == 3;
     elseif Intellect < 8
     disp('  ')
     pause(0.5)
-    disp('You think it?s a good idea to hide behind a rock, and you die')
+    disp('You think it''s a good idea to hide behind a rock, and you die')
     death
     end
 end

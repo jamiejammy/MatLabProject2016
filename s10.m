@@ -46,7 +46,7 @@ elseif L == 2;
         pause(0.5)
         disp('You go in all guns blazing, attracting the attention of the surrounding zombies...')
         pause(0.5)
-        disp('You?re quickly swarmed but you somehow manage to get out of the ordeal alive')
+        disp('You''re quickly swarmed but you somehow manage to get out of the ordeal alive')
         pause(0.5)
         s11
     
@@ -55,7 +55,7 @@ elseif L == 2;
         pause(0.5)
         disp('You go in all guns blazing, attracting the attention of the surrounding zombies. ')
         pause(0.5)
-        disp('You?re quickly swarmed and the zombies become too much for you to handle, you are soon overwhelmed.')
+        disp('You''re quickly swarmed and the zombies become too much for you to handle, you are soon overwhelmed.')
         death
     end
     

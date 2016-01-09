@@ -36,7 +36,7 @@ if L == 1
     pause(0.5)
     disp('You cross the bridge and climb over the cars only to be greeted by a horde of zombie dogs. They proceed to attack you.')
     pause(1.5)
-    disp('You manage to distract their attention with what’s left of your supplies.')
+    disp('You manage to distract their attention with what''s left of your supplies.')
     pause(1.5)
     disp('And make a quick getaway into the deserted Fulham Palace across the river.')
     pause(1.5)
@@ -46,7 +46,7 @@ if L == 1
 elseif L == 2
    if Strength < 6
        pause(0.5)
-       disp('You weren’t strong enough to make the swim across the river, the currents push you around like a floating duck.')
+       disp('You weren''t strong enough to make the swim across the river, the currents push you around like a floating duck.')
        pause(1.5)
        disp('You drowned like a fish on land.')
        pause(1.5)
@@ -71,11 +71,11 @@ elseif L == 2
    end
  elseif L == 3
      pause(0.5)
-     disp('You attempt to go through Wandsworth but it’s infested with swarms of zombie bats.')
+     disp('You attempt to go through Wandsworth but it''s infested with swarms of zombie bats.')
      pause(1.5)
      disp('The swarms of bats ambush you as you make your way through the suburb, blocking out the sun. ')
      pause(1.5)
-     disp('The bats proceed to dive bomb you, you’re bitten and quickly succumb to the zombie disease.')
+     disp('The bats proceed to dive bomb you, you''re bitten and quickly succumb to the zombie disease.')
      pause(1.5)
      death
 end
