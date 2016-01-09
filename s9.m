@@ -46,7 +46,7 @@ elseif L == 2
     
      r = randi([0 100],1,1);
      if r + Luck > 50
-         if 0.7*Agility+0.45*Strength > 8.5
+         if 0.7*Agility+0.45*Strength > 8
          pause(0.5)
          disp('You creep towards them from behind, making sure to not attract their attention. ')
          pause(1.5)
