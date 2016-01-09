@@ -21,12 +21,12 @@ disp('First thing’s first, you need to sort out who’s in charge. She claims it s
 pause(1.5)
 disp('You claim it should be you because you go to the University of the year. ')
 pause(1.5)
-disp('There’s only one way to settle this: the old, classic Rock-paper-scissors. Best of five. ')
+disp('There’is only one way to settle this: the old, classic Rock-paper-scissors. Best of five. ')
 pause(1.0)
 disp(' ')
 pause(0.5)
 L = input('Would you like to play using GUI or go old school with the command box? 1 for GUI, 2 for command box   ');
-pause(0.5)
+pause(1.5)
 disp(' ')
 if L == 1
     pause(0.5)
