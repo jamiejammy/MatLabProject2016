@@ -24,7 +24,7 @@ disp('1. Try to get around the hospital and continue onto Buckingham Palace')
 pause(0.5)
 disp('2. Go in all guns blazing')
 pause(0.5)
-disp('Check your supplies you took from the survivors')
+disp('3. Check your supplies you took from the survivors')
 pause(1)
 L = input('Choose 1,2 or 3:    ');
 disp('   ')
