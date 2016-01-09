@@ -87,7 +87,7 @@ elseif L == 2
        pause(1.5)
        disp(' ')
        pause(0.5)
-       start
+       death
    end
 elseif L == 3
     pause(0.5)

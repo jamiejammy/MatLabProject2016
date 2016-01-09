@@ -7,10 +7,10 @@ Luck = randi([0 10],1,1);
 
 if sum(I) > 20,
     disp('You cannot allocate more than 20 stat points')
-    start
+    stats
 elseif sum(I) < 20,
     disp('You can allocate more stat points')
-    start
+    stats
 elseif sum(I) == 20
     disp(' ')
     pause(0.2)
