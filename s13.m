@@ -27,7 +27,7 @@ pause(0.5)
 disp(' ')
 if L == 1;
     setprefgmail
-    K = input('Enter your email address here with an apostrophe at the beginning and the end:    ');
+   K = input('Enter your email address here with ','s'   );
     disp(' ')
     emailaddress = {K};
     sendmail(emailaddress, 'PIN for the missing ingredient!', '1337');
