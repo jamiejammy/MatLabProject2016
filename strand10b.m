@@ -52,3 +52,6 @@ elseif L == 2;
     pause(1.5)
     death
 end
+
+% Code for Flappy Bird was acquired from: http://uk.mathworks.com/matlabcentral/fileexchange/45795-flappy-bird-for-matlab
+% The code has not been edited and has been used as is.
