@@ -19,7 +19,7 @@ disp('All is quiet at the Cathedral, and mist descends. ')
 pause(1.5)
 disp('Out of the darkness a row of zombies emerge, blocking your way ahead. ')
 pause(1.5)
-disp('Mele charges at them screaming in Italian, do you?  ')
+disp('Mele charges at them, screaming, do you?  ')
 pause(1.5)
 disp('   ')
 disp('1. Go with him, he''s your comrade. ')
@@ -40,7 +40,7 @@ if L == 1;
    disp(' ')
 elseif L == 2;
      pause(0.5)
-     disp('You''are a coward, but you''are alive.')
+     disp('You''re a coward, but you''re alive.')
      pause(1.5)
      s4
 elseif L == 3;
