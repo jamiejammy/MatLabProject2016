@@ -3,7 +3,7 @@ disp(' ')
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
-disp('13.	Now you are safe in the Palace but the remedy still needs to be made. ')
+disp('Now you are safe in the Palace but the remedy still needs to be made. ')
 pause(0.5)
 disp('There is one missing ingredient in the vaccine,   ')
 pause(0.5)
@@ -13,8 +13,8 @@ disp('Do you?')
 pause(0.5)
 disp('   ')
 disp('   ')
-disp('1. Fight your way past Prince Charles’s troops and release the Queen,  ')
-disp('in the hope that she’ll let you stay. ')
+disp('1. Fight your way past Prince Charles''s troops and release the Queen,  ')
+disp('in the hope that she''ll let you stay. ')
 disp(' ')
 pause(0.5)
 disp('2. Leave it to someone else you just want to watch a bit of Netflix on the sofa.   ')
@@ -28,8 +28,8 @@ disp(' ')
 if L == 1;
     disp('You send the email, and copy yourself in it just incase')
     disp('The supplier makes the drop successfully, and the cure is developed.')
-    disp('It is distributed, and people are immunized.'
-    disp('It’s too late for those already bitten, but most of the population survives.'
+    disp('It is distributed, and people are immunized.')
+    disp('It''s too late for those already bitten, but most of the population survives.')
     %%ADD EMAIL HERE%%
     winning
     

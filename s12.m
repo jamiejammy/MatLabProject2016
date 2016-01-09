@@ -15,9 +15,9 @@ end
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
-disp('12. You’ve run through Green Park and hurdled the fence into Buckingham Palace.  ')
+disp('You''ve run through Green Park and hurdled the fence into Buckingham Palace.  ')
 pause(0.5)
-disp('You’re in, but all is not as it seems.  ')
+disp('You''re in, but all is not as it seems.  ')
 pause(0.5)
 disp('Prince Charles has taken the opportunity created by the ongoing zombie apocalypse   ')
 disp('to overthrow the Queen and take power for himself.   ')
@@ -27,15 +27,15 @@ disp('Do you?')
 pause(0.5)
 disp('   ')
 disp('   ')
-disp('1. Fight your way past Prince Charles’s troops and release the Queen,  ')
-disp('in the hope that she’ll let you stay. ')
+disp('1. Fight your way past Prince Charles''s troops and release the Queen,  ')
+disp('in the hope that she''ll let you stay. ')
 disp(' ')
 pause(0.5)
 disp('2. Leave the compound and take your chances with the zombies.  ')
 disp(' ')
 pause(0.5)
 disp('3. Find a place to hide in the compound and hope that Prince Charles  ')
-disp('doesn’t find you and feed you to the zombies. ')
+disp('doesn''t find you and feed you to the zombies. ')
 pause(0.5)
 disp(' ')
 pause(0.5)
@@ -49,7 +49,7 @@ if L == 1;
         s13
     elseif Strength < 8
         disp('You are killed by the troops in a valiant battle, ')
-        disp('and are fed to Prince Charles’s hunting hounds.')
+        disp('and are fed to Prince Charles''s hunting hounds.')
         death
     end
 elseif L == 2;
@@ -64,7 +64,7 @@ elseif L == 3;
         disp('The Queen is eventually liberated and lets you take refuge.')
         s13
     elseif Intellect < 8
-        disp('You try to hide under Charles’s bed and are found within 20 minutes.')
+        disp('You try to hide under Charles''s bed and are found within 20 minutes.')
         disp('You are thrown to the zombies.')
         death
     end

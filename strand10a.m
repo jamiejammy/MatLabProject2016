@@ -36,7 +36,7 @@ pause(0.5)
 disp(' ')
 
 if L == 1
-    disp('You ram a group of zombies that get in your way on the road, but it?s too much for the beaten up van...')
+    disp('You ram a group of zombies that get in your way on the road, but it''s too much for the beaten up van...')
     pause(1.5)
     disp('The engine explodes, which sparks the fuel tank that is leaking from the crash...')
     pause(1.5)

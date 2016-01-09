@@ -18,11 +18,11 @@ disp('                                                         ')
 pause(0.5)
 disp('You have a new companion to make your way to the palace with, she introduces herself as Julie. ')
 pause(1.5)
-disp('First thing’s first, you need to sort out who’s in charge. She claims it should be her as she’s older.')
+disp('First thing''s first, you need to sort out who''s in charge. She claims it should be her as she''s older.')
 pause(1.5)
 disp('You claim it should be you because you go to the University of the year. ')
 pause(1.5)
-disp('There’is only one way to settle this: the old, classic Rock-paper-scissors. Best of five. ')
+disp('There''is only one way to settle this: the old, classic Rock-paper-scissors. Best of five. ')
 pause(1.0)
 disp(' ')
 pause(0.5)
@@ -31,23 +31,23 @@ pause(1.5)
 disp(' ')
 if L == 1
     pause(0.5)
-    disp('Once you’ve played 5 rounds, close the GUI window.')
+    disp('Once you''ve played 5 rounds, close the GUI window.')
     pause(2)
     disp('Remember, close the window after reaching 5 rounds!')
     pause(2)
     disp(' ')
     RPStool
     if num_rounds > 5
-        disp('Don’t be a little cheat, 5 rounds only.')
+        disp('Don''t be a little cheat, 5 rounds only.')
         pause(1.5)
         disp('Try again without cheating this time.')
         pause(1.5)
         disp(' ')
         strand7a
     elseif player_score + 0.2*tied_score > 2
-        disp('You’ve asserted your dominance through winning rock-paper-scissors.')
+        disp('You''ve asserted your dominance through winning rock-paper-scissors.')
         pause(1.5)
-        disp('You’re in charge now!')
+        disp('You''re in charge now!')
         pause(1.5)
         disp(' ')
         strand8a
@@ -65,9 +65,9 @@ elseif L == 2
     pause(0.5)
     [NumWin, NumTie] = RockPaperScissors(5);
     if NumWin+0.2*NumTie > 2
-        disp('You’ve asserted your dominance through winning rock-paper-scissors.')
+        disp('You''ve asserted your dominance through winning rock-paper-scissors.')
         pause(1.5)
-        disp('You’re in charge now!')
+        disp('You''re in charge now!')
         pause(1.5)
         disp(' ')
         strand8a
@@ -82,7 +82,7 @@ elseif L == 2
         death
     end
 else
-    disp('That’s not one of the options, buddy.')
+    disp('That''s not one of the options, buddy.')
     pause(1.5)
     disp(' ')
     strand7a
