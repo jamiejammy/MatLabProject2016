@@ -1,29 +1,24 @@
 disp(' ')
-%%
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
 disp('Now you are safe in the Palace but the remedy still needs to be made. ')
 pause(1.5)
-disp('There is one missing ingredient in the vaccine,   ')
+disp('There is one missing ingredient in the vaccine which is stored in a safe vault, a PIN is needed to access it. ')
 pause(1.5)
-disp('and someone needs to email the supplier the co-ordinates.   ')
+disp('Someone needs to recieve an email for the vault PIN. ')
 pause(1.5)
-disp(' ')
-pause(0.5)
 disp('Do you?')
 pause(1.0)
 disp('   ')
 pause(0.5)
 disp('   ')
 pause(0.5)
-disp('1. Fight your way past Prince Charles''s troops and release the Queen,  ')
-pause(0.5)
-disp('in the hope that she''ll let you stay. ')
+disp('1. Accept the task. ')
 pause(0.5)
 disp(' ')
 pause(0.5)
-disp('2. Leave it to someone else you just want to watch a bit of Netflix on the sofa.   ')
+disp('2. Leave it to someone else, you just want to Netflix and chill.   ')
 pause(0.5)
 disp(' ')
 pause(0.5)
@@ -31,6 +26,28 @@ L = input('Choose by typing 1 or 2    ');
 pause(0.5)
 disp(' ')
 if L == 1;
+    setprefgmail
+    K = input('Enter your email address here with an apostrophe at the beginning and the end:    ');
+    emailaddress = {K};
+    sendmail(emailaddress, 'PIN for the missing ingredient!', '1337');
+    P = input('Enter the PIN you''ve just received here:   ');
+    if P == 1337
+        pause(0.5)
+        disp('You send the email, and copy yourself in it just incase')
+        pause(1.5)
+        disp('The vault is opened successfully, and the cure is developed.')
+        pause(1.5)
+        disp('It is distributed, and people are immunized.')
+        pause(1.5)
+        disp('It''s too late for those already bitten, but most of the population survives.')
+        pause(1.5)
+        disp(' ')
+        pause(0.5)
+        winning
+    else
+        disp('You''ve entered the wrong ingredient, try again')
+        s13
+    end
     pause(0.5)
     disp('You send the email, and copy yourself in it just incase')
     pause(1.5)
@@ -42,9 +59,7 @@ if L == 1;
     pause(1.5)
     disp(' ')
     pause(0.5)
-    %%ADD EMAIL HERE%%
-    winning
-    
+
 elseif L == 2;
      pause(0.5)
      disp('The Queen regrets her decision to let you stay, and exiles you outside the Palace. ')
