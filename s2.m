@@ -15,7 +15,7 @@ disp(' ')
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
-disp('In the panic and amidst screaming students, you head to Antonio?s office.')
+disp('In the panic and amidst screaming students, you head to Antonio''s office.')
 pause(1.5)
 disp('He always knew this would happen, he’is the only one who can help.')
 pause(1.5)
@@ -27,7 +27,7 @@ disp('1. Ignore him. You decide to head over to the Winchester and wait for all 
 pause(0.5)
 disp('2. Team up with Mele and follow his plan to head to London with him.  ')
 pause(0.5)
-disp('3. Seek out a weapon, you?ll need one if you want to survive. ')
+disp('3. Seek out a weapon, you''ll need one if you want to survive. ')
 pause(0.5)
 disp(' ')
 pause(0.5)
@@ -51,7 +51,7 @@ elseif L == 2
          pause(0.5)
          disp('You manage to find a spoon in Starbucks, adding 1 strength points.')
          pause(1.5)
-         disp('Maybe go for the eyes? Armed with this, you?ll be of more help to Mele, and meet him at the Cathedral.')
+         disp('Maybe go for the eyes? Armed with this, you''ll be of more help to Mele, and meet him at the Cathedral.')
          pause(1.5)
          Strength = Strength+1;
          s3
@@ -59,7 +59,7 @@ elseif L == 2
          pause(0.5)
          disp('You searched around the building but to no avail, from the corner of your eye you spot a zombie.')
          pause(1.5)
-         disp('With no weapon and wet trousers, you curse your fate as you?re eaten alive')
+         disp('With no weapon and wet trousers, you curse your fate as you''re eaten alive')
          pause(1.5)
          death
      end    

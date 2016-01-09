@@ -22,11 +22,11 @@ pause(1.5)
 disp('Mele charges at them screaming in Italian, do you?  ')
 pause(1.5)
 disp('   ')
-disp('1. Go with him, he’s your comrade. ')
+disp('1. Go with him, he''s your comrade. ')
 pause(0.5)
 disp('2. Run the other way, you can go a different way to the station. ')
 pause(0.5)
-disp('3. Mele’s heroics might act as a distraction, try and sneak past them. ')
+disp('3. Mele''s heroics might act as a distraction, try and sneak past them. ')
 pause(0.5)
 disp(' ')
 pause(0.5)
@@ -35,22 +35,22 @@ pause(0.5)
 disp(' ')
 if L == 1;
    pause(0.5)
-   disp('Heroic, but stupid. You’are both surrounded by the zombies and quickly die. ')
+   disp('Heroic, but stupid. You''are both surrounded by the zombies and quickly die. ')
    pause(1.5)
    disp(' ')
 elseif L == 2;
      pause(0.5)
-     disp('You’are a coward, but you’are alive.')
+     disp('You''are a coward, but you''are alive.')
      pause(1.5)
      s4
 elseif L == 3;
-    MB = randi([0 20]);
-      if MB <= 17
+    MB = randi([0 100]);
+      if MB <= 85
           pause(0.5)
           disp('You managed to slip past.')
           pause(1.5)
           s4
-      elseif MB >17
+      elseif MB > 85
           pause(0.5)
           disp('The zombies cannot get enough economist flesh, ')
           pause(1.5)
