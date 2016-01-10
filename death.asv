@@ -14,8 +14,6 @@ pa = 4;
 pause(pa) %%This pauses the script for pa=4 seconds
 close(d); %%This closes the GUI window
 
-clear sound 
-
 STA = input('Would you like to restart the game? 1 for Yes, 0 for No     ');  %%This gives the player the option to restart the game
 if STA == 1
     start
