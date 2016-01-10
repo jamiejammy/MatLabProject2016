@@ -16,7 +16,7 @@ disp(' ')
 %%
 %If option 1, random number between 0-100 has to be greater than 29 to pass
 %If option 2, strength needs to be greater than 6 to pass to next stage
-%If option 3, you die.
+%
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
