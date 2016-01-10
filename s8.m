@@ -1,6 +1,7 @@
 disp(' ')
 disp(' ')
 %%
+%This code adds the map by opening a web browser with a predetermined URL.
 Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
 if Map == 0 ;
@@ -12,6 +13,10 @@ elseif Map == 1 ;
     
 end
 %%
+%If you choose option 1, advance to the next stage.
+%If you choose option 2, strength needs to be greater than 6 to pass. You
+%also lose some stat points, see below.
+%If option 3, death and game over.
 pause(0.75)
 disp('                                                         ')
 pause(0.5)
@@ -58,12 +63,12 @@ elseif L == 2
        disp('However, most of your supplies were ruined during the swim.')
        pause(1.5)
        disp('Due to the loss of supplies, you lose 1 strength and agility point.')
-       Strength = Strength-1;
-       Agility = Agility-1;
+       Strength = Strength-1; %lose a stat point in strength
+       Agility = Agility-1;    %lose a stat point in Agility
        pause(1)
-       disp(['Your strength is now ',num2str(Strength)])
+       disp(['Your strength is now ',num2str(Strength)]) %Show your stat point
        pause(1.5)
-       disp(['Your agility is now ',num2str(Agility)])
+       disp(['Your agility is now ',num2str(Agility)]) %Show your stat points
        pause(1.5)
        disp(' ')
        pause(0.5)
