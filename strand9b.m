@@ -1,6 +1,7 @@
 disp(' ')
 disp(' ')
-%%
+%%Web searches the URL to show map of the area which you are in during the
+%%game
 %Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
 %if Map == 0 ;
@@ -12,7 +13,8 @@ disp(' ')
     
 %end
 %%
-
+%If choose option 1, move to strand 10b and gain 1 agility point
+%If choose option 2, move to strand 10b and lose 1 agility point
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
