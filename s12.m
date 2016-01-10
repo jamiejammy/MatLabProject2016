@@ -13,7 +13,9 @@ elseif Map == 1 ;
     
 end
 %% Scenario 12 of the game, if you pick option 1 your Strength stat
-%% needs to be greater or equal to 7 in order to pass. If you pick option 2,
+%% needs to be greater or equal to 7 in order to pass. If you pick option 2, you die.
+%% If you pick option 3, Intellect needs to be greater or equal to 7 in order to pass.
+%% 
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
