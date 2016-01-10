@@ -1,6 +1,6 @@
 disp(' ')
 disp(' ')
-%% This code adds the map. 
+%% This code adds the map by searching for it via a URL. 
 Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
 if Map == 0 ;
@@ -12,7 +12,9 @@ elseif Map == 1 ;
     
 end
 
-%%
+%% Scenario 1 of the game, if you pick option 1, you move onto the next stage.
+%% For option 2, the Strength stat needs to be > 7 in order to pass to the next stage.
+%% If you pick option 3, you die and fail the game.
 pause(1.5)
 disp('                                                         ')
 pause(0.5)
