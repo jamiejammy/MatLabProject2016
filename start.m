@@ -89,7 +89,7 @@ disp(' ')
 MUS = input('Do you want music throughout the game?: 1 for Yes,  0 for No         '); %Gives you the choice of music
 
 if MUS ==1
-    TRACK = input('Please choose your track by choosing 0, 1 or 2: \n (0) Stormyzy ShutUp Instrumental \n (1) The Imperial March \n (2) Dubstep \n  NOTICE: To stop music type clear sound \n\n'); %Gives you a choice of music track
+    TRACK = input('Please choose your track by choosing 0, 1 or 2: \n (0) Stormyzy ShutUp Instrumental \n (1) The Imperial March \n (2) Dubstep \n (3) Game of Thrones \n  NOTICE: To stop music type clear sound \n\n'); %Gives you a choice of music track
      if TRACK == 0
         a = audioread('stormzy.wav'); %Reads the stormzy.wav files
         sound(a,45000); %plays the .wav file at 45000 Hz
@@ -98,6 +98,9 @@ if MUS ==1
          sound(b,45000);%Plays the .wav file at 45000 Hz
      elseif TRACK == 2 
          c = audioread('Dubstep.wav');%Reads Dubstep.wav file
+         sound(c,45000); %plays .wav file at 45000 Hz
+     elseif TRACK == 3
+         d = audioread('GameofThrones') %Reads the GameofThrones.wav file
          sound(c,45000); %plays .wav file at 45000 Hz
      else 
          disp(' ')
