@@ -1,6 +1,6 @@
 disp(' ')
 disp(' ')
-%%
+%% This code adds the map by opening a web browser with a predetermined URL.
 %Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
 %if Map == 0 ;

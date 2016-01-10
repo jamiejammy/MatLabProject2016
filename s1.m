@@ -1,16 +1,16 @@
 disp(' ')
 disp(' ')
 %%  This code adds the map by opening a web browser with a predetermined URL.
-Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
+Map = input('Do you want to view your map? 0 for No or 1 for Yes    '); % This allows the user to choose whether they want to access the map or not.
 
-if Map == 0 ;
+if Map == 0 ; % if they choose option 0 than it will carry on with the game. 
    disp('')
-elseif Map == 1 ;
-    disp('Loading Map.....')
+elseif Map == 1 ; % if they choose option 1 then this will open up a browser with their current location.
+    disp('Loading Map.....') 
     AP = 'https://www.google.co.uk/maps/dir/Austin+Pearce+Building,+University+of+Surrey,+Guildford,+Surrey+GU2+7XH/Austin+Pearce+Building/@51.2436646,-0.5932616,16.75z/data=!4m13!4m12!1m5!1m1!1s0x4875d0c185555555:0x273e8e5efc69aed8!2m2!1d-0.5894512!2d51.2439725!1m5!1m1!1s0x0:0x273e8e5efc69aed8!2m2!1d-0.5894512!2d51.2439725';
-    web(AP);
+    web(AP); % this code opens up 
     
-end
+end 
 
 %% Scenario 1 of the game, if you pick option 1, you move onto the next stage.
 %% For option 2, the Strength stat needs to be > 7 in order to pass to the next stage.
@@ -18,7 +18,7 @@ end
 pause(1.5)  %%This creates pauses within the game
 disp('                                                         ')
 pause(0.5)
-disp('You wake up half way through your 6-8 macroeconomics lecture.') %%This code is used to display different parts of the game.
+disp('You wake up half way through your 6-8 macroeconomics lecture.') %%This code is used throughout the game to show different scenarios and options. 
 pause(1.5)
 disp('Some zombies run in the front door and starts chomping on your lecturers face. Do you?')
 pause(1.5)
