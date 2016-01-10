@@ -1,6 +1,8 @@
 disp(' ')
 disp(' ')
-%%%
+%%%Option 1, if Intellect is >= 6, pass to next stage
+%Option 2, death.
+%Option 3, go to strand7b
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
