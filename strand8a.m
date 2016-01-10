@@ -1,6 +1,6 @@
 disp(' ')
 disp(' ')
-%%
+%%We thought it was best not to have maps on this scenario
 %Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
 %if Map == 0 ;
@@ -12,7 +12,9 @@ disp(' ')
     
 %end
 %%
-
+%Option 1, death
+%If option 2, go to strand 9a
+%If option 3, go to strand 9a
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
