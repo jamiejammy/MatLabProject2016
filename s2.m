@@ -1,6 +1,8 @@
 disp(' ')
 disp(' ')
 %% MAP 2
+% This code adds the map by opening a web browser with a predetermined URL.
+
 %Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
 %if Map == 0 ;
@@ -11,7 +13,9 @@ disp(' ')
    % web(Office);
     
 %end
-%%
+%% Scenario 2 of the game. If you pick option 1, you die and fail the game.
+%% For option 2: you move onto the next stage.
+%% For option 3: a random number between 0 and 100 is generated called r, if r is greater than 19, you pass onto the next stage.
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
@@ -47,7 +51,7 @@ elseif L == 2
     s3
  elseif L == 3
      r = randi([0 100],1,1);
-     if r > 19
+     if r + Luck > 19
          pause(0.5)
          disp('You manage to find a spoon in Starbucks, adding 1 strength point.')
          pause(1.5)
