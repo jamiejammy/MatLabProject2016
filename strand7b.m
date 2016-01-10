@@ -12,7 +12,7 @@ disp(' ')
  %  LaBaita= 'https://www.google.co.uk/maps/place/La+Baita/@51.4583619,-0.1508096,17z/data=!3m1!4b1!4m2!3m1!1s0x487605b38cd3b3a5:0x1c1a4908ce2e4815';
 %    web(LaBaita);
 %end
-%%
+%% Strand B of Scenario 7:
 %Choose option 1, if Agility >= 6, pass to the next stage and gain two
 %strength points
 %Choose option 2, Agility needs to be >= 6 to pass to the next stage

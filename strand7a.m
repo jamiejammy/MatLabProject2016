@@ -12,8 +12,7 @@ disp(' ')
  %   web(WimbledonTennis);
     
 %end
-%%
-
+%% Strand A of Scenario 7 - Either pass or fail regardless of choice.
 pause(0.75)
 disp('                                                         ')
 pause(0.5)

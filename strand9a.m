@@ -10,7 +10,10 @@ disp(' ')
  %   Shop = 'https://www.google.co.uk/maps/place/Convenience+Store/@51.4442693,-0.2071603,21z/data=!4m2!3m1!1s0x0000000000000000:0xf1dac91475ce727e'
  %   web(Shop)
 %end
-%%
+%% Strand A of Scenario 9:
+%Option 1: If Agility >= 7 then pass onto the next scenario, else fail.
+%Option 2: If Strength >= 6 then pass onto next scenario, else fail.
+%Option 3: If Intellect >= 7 then pass onto next scenario, else fail.
 pause(0.75)
 disp('                                                         ')
 pause(0.5)

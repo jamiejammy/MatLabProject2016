@@ -11,7 +11,10 @@ disp(' ')
    % web(Wandsworth);
     
 %end
-%%
+%% Strand A of Scenario 10:
+%Option 1: You die and fail the game.
+%Option 2: Advance to Scenario 8
+%Option 3: You die and fail the game.
 pause(0.5)
 disp('                                                         ')
 pause(0.5)

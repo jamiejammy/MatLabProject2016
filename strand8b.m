@@ -12,7 +12,10 @@ elseif Map == 1 ;
     web(Battersea);
     
 end
-%%
+%% Strand A of Scenario 8:
+%Choose option 1, advance to the next scenario.
+%Choose option 2, advance to the next scenario but feel bad about yourself.
+%Choose option 3, gain +1 strength and advance to next scenario.
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
@@ -26,7 +29,7 @@ disp('  ')
 pause(1.5)
 disp('1. Go and help them, shooting the zombies with your new gun. ')
 pause(0.5)
-disp('2. Run the opposite direction and pretend that you haven''t seen.  ')
+disp('2. Run the opposite direction and pretend that you haven''t seen anything.  ')
 pause(0.5)
 disp('3. Go and find help.   ')
 pause(0.5)
