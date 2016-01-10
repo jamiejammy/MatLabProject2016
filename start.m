@@ -1,8 +1,8 @@
 pause(0.5)
-clear sound
-clear all
+clear sound    %%This clears any sound files that may have been playing prior to starting the game
+clear all      %%This clears the workspace so that no variables in the game are interfered by previously calculated variables
 
-disp('.......................LOADING ROAD TO REMEDY...............................')
+disp('.......................LOADING ROAD TO REMEDY...............................') %%This imitates a loading screen on a traditional game
 pause(0.2)
 disp('                                21%')
 pause(0.4)
@@ -17,19 +17,19 @@ disp('   ')
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%STARTING VIDEO%%%%%%%%%%%%%%%%%%%%
-MOVIE = input('Would you like to watch the introductory video?  1 for Yes, 0 for No     ');
+MOVIE = input('Would you like to watch the introductory video?  1 for Yes, 0 for No     ');         %%This allows the player a choice of whether they'd like to view the intro video or not
 if MOVIE == 1
-[A,map]=imread('introgif.gif','frames','all'); 
-mov=immovie(A,map); 
-p = implay(mov, 5);
-set(findall(0,'tag','spcui_scope_framework'),'position',[500 100 700 951]);
-play(p.DataSource.Controls);
-pa = 6;
-pause(pa)
-close(p);
+[A,map]=imread('introgif.gif','frames','all');    %%This computes the gif file so that it may be used later
+mov=immovie(A,map);     %%This uses the image processing toolkit to convert the gif into a 'movie'
+p = implay(mov, 5);     %%This uses the image processing toolkit to play the movie 'mov' at '5' frames per second 
+set(findall(0,'tag','spcui_scope_framework'),'position',[500 100 700 951]);  %%This set the position that the GUI video will open at a certain place on the player's screen at a certain height and width
+play(p.DataSource.Controls); %%This makes the video play without the player needing to click play, as default, the user needs to click play for a movie to play
+pa = 6;   %%This sets the variable 'pa' which will be used to pause the game for the amount of time the video is playing
+pause(pa) %%This pauses the game for 'pa' seconds
+close(p); %%This closes the movie's GUI window automatically
 elseif MOVIE == 0
 else 
-    pause(0.5)
+    pause(0.5)  %%This means the game will restart if neither a 0 or a 1 is entered
     disp(' ')
     disp('Please enter a 1 or a 0')
     disp(' ')
@@ -41,13 +41,13 @@ end
 
 disp('  ')
 disp('  ')
-disp('Welcome to Road to Remedy®, the exciting new Zombie game by MBRRJ Studios')
+disp('Welcome to Road to Remedy®, the exciting new Zombie game by MBRRJ Studios') %%This displays the text between the apostrophes
 disp(' ')
 pause(1)
 disp('This is an 18+ game')
 disp('  ')
 pause(1)
-ST = input('Would you like to start your adventure? 1 for Yes, 0 for No      ');
+ST = input('Would you like to start your adventure? 1 for Yes, 0 for No      ');  %%This allows the player choice as to whether they'd like to start the game or not
 
 if ST == 0;
     disp('    ')
@@ -55,18 +55,18 @@ if ST == 0;
     disp('    ')
     start
     
-elseif ST == 1;
+elseif ST == 1;  %%This continues the script
     
 else 
-    disp('Please enter a 1 or 0')
+    disp('Please enter a 1 or 0')   %%This ensures against typing errors on the player's part. If they type anything that isn't a 0 or 1, it restarts the game
     disp('   ')
     start
 end
 
-disp('   ')
+disp('   ') %%This allows for gaps in the code so it is clear for the player to read when playing
 disp('   ') 
 pause(.5)
-AGE = input('Before we start the game, how old are you?          ');
+AGE = input('Before we start the game, how old are you?          ');   %%This creates another condition in which the player has to fulfil to start playing
 
 if AGE >= 18;
     disp('  ')
@@ -83,7 +83,7 @@ else
     
 end
 
-pause(1)
+pause(1) %%Pauses are added to the script to allow for the player to read the text
 disp(' ')
 
 MUS = input('Do you want music throughout the game?: 1 for Yes,  0 for No         ');
@@ -117,4 +117,4 @@ end
 %Afro Circus is taken from this URL:  https://www.youtube.com/watch?v=s5mJ_1ZWmqE
 disp(' ')
 disp(' ')
-stats
+stats  %%This runs the stats script which allows the player to allocate their own stats before starting the game
