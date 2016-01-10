@@ -22,6 +22,8 @@ if MOVIE == 1
 [A,map]=imread('introgif.gif','frames','all');    %%This computes the gif file so that it may be used later
 mov=immovie(A,map);     %%This uses the image processing toolkit to convert the gif into a 'movie'
 p = implay(mov, 5);     %%This uses the image processing toolkit to play the movie 'mov' at '5' frames per second 
+E = audioread('GameofThrones.wav'); %Reads the GameofThrones.wav file
+sound(E,45000); %plays .wav file at 45000 Hz
 set(findall(0,'tag','spcui_scope_framework'),'position',[500 100 700 951]);  %%This set the position that the GUI video will open at a certain place on the player's screen at a certain height and width
 play(p.DataSource.Controls); %%This makes the video play without the player needing to click play, as default, the user needs to click play for a movie to play
 pa = 6;   %%This sets the variable 'pa' which will be used to pause the game for the amount of time the video is playing
