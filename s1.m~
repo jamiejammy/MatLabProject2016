@@ -61,7 +61,7 @@ elseif L == 2; %%If you choose option 2, and if Strength stat is less than 7, di
       disp(' ')
       s2
    end
- elseif L == 3; %If you pick option 3, displays sentences below and ends the game as you die."
+ elseif L == 3;
      pause(0.5)
      disp('The zombies run up to you and start ripping your intestines out, you continue to do the Harlem Shake for a few minutes.')
      pause(1.5)
