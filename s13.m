@@ -1,3 +1,7 @@
+%%If option 1, win game, else start scenario again if you enter the wrong
+%%pin.
+%If option 2, death
+
 disp(' ')
 pause(0.5)
 disp('                                                         ')
@@ -26,14 +30,14 @@ L = input('Choose by typing 1 or 2    ');
 pause(0.5)
 disp(' ')
 if L == 1;
-    setprefgmail
-   K = input('Enter your email address here ','s'  );
+    setprefgmail %brings in setprefgmail.m to use in scenario
+   K = input('Enter your email address here ','s'  ); %input email address
     disp(' ')
-    emailaddress = {K};
-    sendmail(emailaddress, 'PIN for the missing ingredient!', '1337');
+    emailaddress = {K}; %set input = emailadress
+    sendmail(emailaddress, 'PIN for the missing ingredient!', '1337'); %send email
     disp(' ')
-    P = input('Enter the PIN you''ve just received here:   ');
-    if P == 1337
+    P = input('Enter the PIN you''ve just received here:   '); %enter pin number to continue script
+    if P == 1337 %pin number
         pause(0.5)
         disp('You open the email and copy down the PIN.')
         pause(1.5)
