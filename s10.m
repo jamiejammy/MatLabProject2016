@@ -1,6 +1,8 @@
 disp(' ')
 disp(' ')
 %%
+%%We felt maps every scenario was not needed, so we made them comments
+
 %Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
 %if Map == 0 ;
@@ -10,6 +12,9 @@ disp(' ')
     %CravenCottage = 'https://www.google.co.uk/maps/place/Craven+Cottage/@51.4748946,-0.2239739,17z/data=!3m1!4b1!4m2!3m1!1s0x48760fa7a4488157:0xa0377f648d942d05';
    % web(CravenCottage);
  %%
+ %If you choose option 1, Agility must be greater than 7 to pass.
+ %If option 2, Strength must be >= 10 in order to pass.
+ %If option 3, you pass to the next stage.
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
