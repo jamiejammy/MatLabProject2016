@@ -86,19 +86,19 @@ end
 pause(1) %%Pauses are added to the script to allow for the player to read the text
 disp(' ')
 
-MUS = input('Do you want music throughout the game?: 1 for Yes,  0 for No         ');
+MUS = input('Do you want music throughout the game?: 1 for Yes,  0 for No         '); %Gives you the choice of music
 
 if MUS ==1
-    TRACK = input('Please choose your track by choosing 0, 1 or 2: \n (0) Stormyzy ShutUp Instrumental \n (1) The Imperial March \n (2) Dubstep \n  NOTICE: To stop music type clear sound \n\n');
+    TRACK = input('Please choose your track by choosing 0, 1 or 2: \n (0) Stormyzy ShutUp Instrumental \n (1) The Imperial March \n (2) Dubstep \n  NOTICE: To stop music type clear sound \n\n'); %Gives you a choice of music track
      if TRACK == 0
-        a = audioread('stormzy.wav');
-        sound(a,45000);
+        a = audioread('stormzy.wav'); %Reads the stormzy.wav files
+        sound(a,45000); %plays the .wav file at 45000 Hz
      elseif TRACK == 1
-         b = audioread('Imperialmarch.wav');
-         sound(b,45000);
+         b = audioread('Imperialmarch.wav'); %Reads the Imperialmarch.wav files
+         sound(b,45000);%Plays the .wav file at 45000 Hz
      elseif TRACK == 2 
-         c = audioread('Dubstep.wav');
-         sound(c,45000);
+         c = audioread('Dubstep.wav');%Reads Dubstep.wav file
+         sound(c,45000); %plays .wav file at 45000 Hz
      else 
          disp(' ')
          pause(0.5)
