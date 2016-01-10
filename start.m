@@ -100,8 +100,8 @@ if MUS ==1
          c = audioread('Dubstep.wav');%Reads Dubstep.wav file
          sound(c,45000); %plays .wav file at 45000 Hz
      elseif TRACK == 3
-         d = audioread('GameofThrones') %Reads the GameofThrones.wav file
-         sound(c,45000); %plays .wav file at 45000 Hz
+         d = audioread('GameofThrones.wav') %Reads the GameofThrones.wav file
+         sound(d,45000); %plays .wav file at 45000 Hz
      else 
          disp(' ')
          pause(0.5)
