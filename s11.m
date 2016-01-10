@@ -1,6 +1,7 @@
 disp(' ')
 disp(' ')
-%%
+%%We felt maps every scenario was not needed, so we made them comments
+%%instead.
 %Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
 %if Map == 0 ;
@@ -12,6 +13,9 @@ disp(' ')
     
 %end
 %%
+%If you choose option 1, you die, game over. If you choose option 2,
+%Strength + Agility must be > 12 to pass to the next scenario. If you
+%choose option 3, intellect must be >= 7 in order to pass.
 pause(0.5)
 disp('                                                         ')
 pause(0.5)
