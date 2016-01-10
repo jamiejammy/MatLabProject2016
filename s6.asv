@@ -12,9 +12,8 @@ disp(' ')
     
 %end
 %%Scenario 6
-% If you choose option 1 and your strength < 7 you die and fail the game if >7 you pass onto scenario 7.
-% If you choose option 2 you pass to scenario 7.
-% If you choose option 3, you die and fail the game. 
+
+
 pause(0.5)
 disp('                                                         ')
 pause(0.5)

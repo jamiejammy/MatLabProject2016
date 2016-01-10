@@ -1,6 +1,7 @@
 disp(' ')
 disp(' ')
 %%  This code adds the map by opening a web browser with a predetermined URL.
+% We have decided to not show some of the maps for some of the scenarios as we felt it was unnecssary. 
 Map = input('Do you want to view your map? 0 for No or 1 for Yes    '); % This allows the user to choose whether they want to access the map or not.
 
 if Map == 0 ; % if they choose option 0 than it will carry on with the game. 

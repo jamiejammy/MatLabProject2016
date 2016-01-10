@@ -11,7 +11,10 @@ disp(' ')
    %web(Station);
     
 %end
-%%
+%%Scenario 4 of the game. 
+% If you pick option 1 you move onto scenario 3. 
+% If you pick option 2 you move onto scenario 3 only if his intellect stat is >7.
+% If you pick option 3 you die and fail the game. 
 pause(0.5)
 disp('                                                         ')
 pause(0.5)

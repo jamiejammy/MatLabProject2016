@@ -1,6 +1,6 @@
 disp(' ')
 disp(' ')
-%%
+%% This code adds the map by opening a web browser with a predetermined URL.
 Map = input('Do you want to view your map? 0 for No or 1 for Yes    ');
 
 if Map == 0 ;
@@ -11,7 +11,10 @@ elseif Map == 1 ;
     web(Kingston);
     
 end
-%%
+%% Scenario 5 of the game from here the game branches off and you can win the game in several ways. 
+% If you pick option 1, you die and fail the game. 
+% If you pick option 2, you pass and move on to scenario 6a which is a different path to the players journey to the safe house.
+% If you pick option 3, you pass onto scenation 6 which is another path to get to the safe house. 
 disp('                                                         ')
 pause(0.7)
 disp('You see a rusty old minivan driving through, you wave at them to come help you.')
@@ -38,7 +41,7 @@ if L == 1
    pause(1.5)
    disp('You ignore the daughter completely as she turns into a zombie and bites your leg off as the blood squirts everywhere.')
    pause(1.5)
-   disp('You slowly start turning yourself and starting feeding upon the mother.')
+   disp('You slowly start turning yourself and start feeding upon the mother.')
    pause(1.5)
    disp(' ')
    pause(0.5)
