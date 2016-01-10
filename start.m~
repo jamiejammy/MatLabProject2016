@@ -113,8 +113,8 @@ else
     start
 end
 %Imperial March is taken from this URL: https://www.youtube.com/watch?v=OVABAKxH2d0
-%Stormzy.wav is taken from this URL:    https://www.youtube.com/watch?v=glSeFLGDCXo  
-%Dubstep is taken from this URL:  https://www.youtube.com/watch?v=JwI6vE7bCRk
+%Stormzy.wav is taken from this URL:  https://www.youtube.com/watch?v=gLf1OFM8st4    
+% is taken from this URL:  https://www.youtube.com/watch?v=s5mJ_1ZWmqE
 disp(' ')
 disp(' ')
 stats  %%This runs the stats script which allows the player to allocate their own stats before starting the game
