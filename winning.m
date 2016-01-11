@@ -16,7 +16,7 @@ clear sound %%This stops the sound file playing
 pause(0.5)
 disp('Congratulations! You''ve beaten the game.') %%This is displaying the ending text 
 pause(1.5)
-disp('There''s four routes to beat, can you finish them all?') %%This lets the player know there are many different ways to complete the game
+disp('There''s three routes to beat, can you finish them all?') %%This lets the player know there are many different ways to complete the game
 pause(1.5)
 disp(' ')
 pause(0.5)
